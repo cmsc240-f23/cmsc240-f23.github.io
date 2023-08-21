@@ -13,16 +13,16 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: CMSC 240 Software Systems Development - Fall 2023
+title: CS 2113 Software Engineering - Spring 2022
 email: aaviv@gwu.edu
-author: David G. Balash
+author: Adam J. Aviv
 description: > # this means to ignore newlines until "baseurl:"
-  CMSC 240 Software Systems Development - Fall 2023
+  CS 2113 Software Engineering.
 
 baseurl: "/" # the subpath of your site, e.g. /blog 
-url: "https://cmsc240-f23.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://cs2113-s21.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
-github_username: cmsc240-f23
+github_username: cs2113-s22
 
 # destination: ./docs
 
@@ -40,6 +40,7 @@ minima:
 # this and add the path to the pages in order as they should show up
 header_pages:
  - guides/index.md
+ - videos.md
  - schedule.md
  - syllabus.md
  
