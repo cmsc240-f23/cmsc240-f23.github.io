@@ -11,7 +11,7 @@ title: CMSC 240 Systems Software Development - Fall 2023
             <li>Office Hours (Jepson 223):
                 <ul>
                     <li>Tue 3:30PM - 4:30PM</li>
-		            <li>Thr 3:30PM - 4:30PM</li>
+                    <li>Thr 3:30PM - 4:30PM</li>
                     <li>Fri 3:00PM - 4:00PM</li>
                     <li>and by appointment (email me)</li>
                 </ul>
