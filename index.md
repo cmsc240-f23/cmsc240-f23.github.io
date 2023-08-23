@@ -6,13 +6,14 @@ title: CS2113 Software Egineering - Spring 2022
 <div class="wrapper" markdown="0"><div class="footer-col-wrapper">
     <div class="footer-col two-col-1">
         <ul class="contact-list">
-            <li><b>Prof. Adam J. Aviv</b></li>
-            <li><a href="mailto:aaviv@gwu.edu">aaviv@gwu.edu</a></li>
-            <li>Office Hours:
+            <li><b>Prof. David G. Balash</b></li>
+            <li><a href="mailto:david.balashv@richmond.edu">david.balash@richmond.edu</a></li>
+            <li>Office Hours (Jepson 223):
                 <ul>
-                <li> By Appointment (at first)</li>
+                    <li>Tue/Thr/Fri 3:00PM - 4:00PM</li>
+                    <li>and by appointment (email me)</li>
                 </ul>
-            </li>                
+            </li>
         </ul>
         <ul class="contact-list">
             <li><b>David Balash</b> (GTA)</li>
