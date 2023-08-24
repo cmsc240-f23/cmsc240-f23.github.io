@@ -1,6 +1,6 @@
 ---
 layout: default
-title: CS2113 Software Egineering - Spring 2022
+title: CMSC 240 Software Systems Development - Fall 2023
 ---
 ## Teaching Staff
 <div class="wrapper" markdown="0">
@@ -11,8 +11,9 @@ title: CS2113 Software Egineering - Spring 2022
                 <li><a href="mailto:david.balashv@richmond.edu">david.balash@richmond.edu</a></li>
                 <li>Office Hours (Jepson 223):
                     <ul>
-                        <li>Tue/Thr/Fri 3:00PM - 4:00PM</li>
-                        <li>and by appointment (email me)</li>
+                        <li>Tu 3:00PM - 4:00PM</li>
+                        <li>Fr 2:30PM - 4:30PM</li>
+                        <li>and by appointment (https://calendly.com/davidbalash)</li>
                     </ul>
                 </li>
             </ul>
