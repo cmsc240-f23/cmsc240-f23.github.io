@@ -67,14 +67,14 @@ By the end of this course, students will:
 
 ### Course Outline
 
-- Weeks 1-5: Introduction to C+ programming, Unix/Linux environments, and Version Control
+- Weeks 1-5: Introduction to C++ programming, Unix/Linux environments, and version control
   - Syntax, memory management, libraries, ﬁle IO, Linux command line, Git 
-- Weeks 6-10: Object Oriented Programming
-  - Abstraction, Polymorphism, Inheritance, and Encapsulation
-- Weeks 11-15: Software Systems Development
+- Weeks 6-10: Object-oriented programming
+  - Abstraction, polymorphism, inheritance, and encapsulation
+- Weeks 11-15: Software systems development
   - UML, design patterns, testing, debugging, static/dynamic analysis
-- Throughout: Software engineering techniques
-  - Requirements, Architecture, Design Principles
+- Throughout: software engineering techniques
+  - Requirements, architecture, design principles
 
 ## Textbook and Resources
 
