@@ -136,7 +136,7 @@ You are expected to submit well-written code:
 ### Attendance Policy
 Regular attendance for the entire class time is expected. Students should not miss more than 4 total sessions (including lecture and lab). Students who have to quarantine due to COVID or miss class for other legitimate reasons will not be penalized for their absence during those classes.
    
-   
+
 ### Self-Guided Module exercies
 
 Each lecture will be accompanied by a *self-guided worksheet*. This module exercise is to complement in-class content and to assist you in reviewing the material. In-class module exercises are due one week from the lecture in which they are assigned. 
@@ -163,16 +163,16 @@ There are two comprehensive exams in this class. Each exam is worth 15% of your 
 
 We will use two primary forms of communication in this class: email announcements and Ed. You are responsible for remaining up to date on any information sent by email or posted to Ed. This may include clarifications to assignments, updates on grading rubrics, and changes in office hours. 
 
-For all general course information, questions, and clarifications, you should preference to using ED. An instructor, lab assitant, or even your fellow classmate can then answer a question. You can even post your questions anonymously. 
+For all general course information, questions, and clarifications, you should preference to using Ed. An instructor, lab assitant, or even your fellow classmate can then answer a question. You can even post your questions anonymously. 
 
-If you have personal, individual issues you'd like addressed, you should send those by email to the course instructor. However, all course related topics should be directed to Ed.
+If you have personal, individual issues you'd like addressed, you should send those by email to me. However, all course related topics should be directed to Ed.
 
 
 ## Course Policies
 
 ### Illness policy
 
-If you are ill and it will cause you to miss class, lab, or an assignment, you should let your course instructor know in advance, if possible. It is your responsibility to catch up with any missed material if you are able to do so.  If not, then immediately on return, work out a time-frame with me on when work will be submitted. 
+If you are ill and it will cause you to miss class, lab, or an assignment, you should let me know in advance, if possible. It is your responsibility to catch up with any missed material if you are able to do so.  If not, then immediately on return, work out a time-frame with me on when work will be submitted. 
 
 
 ### Academic Integrity policy
@@ -183,7 +183,6 @@ You must:
 
 - Do your best to solve all homework, projects, labs, and exams on your own.
 - Write the names of any students you collaborated with as a comment at the top of your file (subject to the constraints below).
-- Notify your instructor if you are using a tutor (this is not a problem, just let your instructor know).
 
 You may:
 
@@ -225,17 +224,17 @@ This policy is subject to change as we all learn more about how GenAI works and 
 
 Any student who may need an accommodation based on the potential impact of a disability should contact [Disability Services](https://disability.richmond.edu/) (or call 804-662-5001) to establish eligibility and to coordinate reasonable accommodations. 
 
-If you are approved for classroom and/or testing accommodation(s) please make sure to submit a Disability Accommodation Notice to the instructor at this [link](https://disabilityportal.richmond.edu/ClockWork/user/selfregC/courses.aspx).
+If you are approved for classroom and/or testing accommodation(s) please make sure to submit a Disability Accommodation Notice to me at this [link](https://disabilityportal.richmond.edu/ClockWork/user/selfregC/courses.aspx).
 
 
 ## Wellness
 
-If any issue arises that may limit your ability to participate in class, for example, personal illness, family emergency, etc., please be sure to discuss these matters with your instructor as soon as possible and accommodations will be made available to you as appropriate.
+If any issue arises that may limit your ability to participate in class, for example, personal illness, family emergency, etc., please be sure to discuss these matters with me as soon as possible and accommodations will be made available to you as appropriate.
 
 Feelings of being overwhelmed are unfortunately quite common in the university environment. You are not alone, and there are a number of resources available to provide support in those moments. Learning to ask for help is an important part of the university experience, and if you or anyone you know experiences any academic stress, difficult life events, or feelings of anxiety or depression, we strongly encourage you to seek support. UR offers counseling services, and also consider reaching out to a friend, family or faculty member you trust for help.
 
 If you or someone you know is feeling suicidal or in danger of self-harm, call someone immediately, day or night:
-* Counseling and Psychological Services: 804-289-8119
+* UR Counseling and Psychological Services: 804-289-8119
 * University of Richmond Police: 804-289-8911 
 * National Suicide Prevention Lifeline: 1-800-273-8255
 
