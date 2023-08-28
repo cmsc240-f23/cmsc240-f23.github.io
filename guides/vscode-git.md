@@ -9,7 +9,7 @@ title: Setting up VS Code
 > Before starting, you should have completed the [VScode Setup Guide with SSH](guides/vscode-ssh). This guide assume you have VScode and SSH capabilities installed, as well as the VSCode extension Remote Development Extension. 
 
 
-1. Accept the github classroom assignment and follow the link to the repository. For example, if you are working on [Lab 1](/lab/1), after accepting the assignment, you'll have a new repository named `lab-1-username` where `username` is your github username. My github username is `adamaviv`, so you will see that in the screenshots below.
+1. Accept the GitHub classroom assignment and follow the link to the repository. For example, if you are working on Lab 1, after accepting the assignment, you'll have a new repository named `lab-1-username` where `username` is your GitHub username. 
 
 2. Copy the repository link by clicking the `Code` label
 
@@ -23,7 +23,7 @@ title: Setting up VS Code
 
    ![VScode New Window, Explore, Clone Repository](/images/vscode-explorer-clone-repo.png)
 
-   > If you don't see an option to `Clone Repository` then you may not have `git` installed. Follow this [link](https://git-scm.com/download) to install it for your computer. 
+
    
 4. Enter the repo link in the command pallet and confirm the file location you want to cloen the repository to. 
 
@@ -78,11 +78,6 @@ If you want to add all the files that have been modified and commit all at once,
 git commit -a -m "message" 
 ```
 
-## Having an issue with ssh?
-
-If you find that your ssh key is not available in the container, you may need to add your private key to the `ssh-agent`.
-
-VScode has a [good guide](https://code.visualstudio.com/docs/remote/containers#_sharing-git-credentials-with-your-container) explaining how to help with that
 
 ## Asking you to set up your git profile?
 

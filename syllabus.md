@@ -132,14 +132,14 @@ You are expected to submit well-written code:
   - Additionally, your code should be compile in a standard, pre-described way for the class (e.g., via the `g++` compiler)
 - Be able to describe and answer questions about your code when prompted.
 
-   
-### Self-Guided Worksheets
-
-Each lecture will be accompanied by a *self-guided worksheet*. This worksheet is to complement in-class content and to assist you in reviewing the material. **Worksheets are not graded for accuracy; instead, you attest that you have completed the worksheet.** Worksheet completion is expected by the Friday following Monday lecture. 
-
 
 ### Attendance Policy
 Regular attendance for the entire class time is expected. Students should not miss more than 4 total sessions (including lecture and lab). Students who have to quarantine due to COVID or miss class for other legitimate reasons will not be penalized for their absence during those classes.
+   
+   
+### Self-Guided Module exercies
+
+Each lecture will be accompanied by a *self-guided worksheet*. This module exercise is to complement in-class content and to assist you in reviewing the material. In-class module exercises are due one week from the lecture in which they are assigned. 
 
 
 ### Labs
