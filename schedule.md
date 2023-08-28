@@ -5,7 +5,7 @@ title: Schedule
 
 # Course Schedule of Topics and Due Dates
 
-
+* Course schedule is subject to change as the semseter progresses.  
 
 | Week | Lecture (Tue)                              | Lecture (Thr)                                 | Lab (Fri)(Wed)                                        |
 | :--- | :---                                       | :---                                          | :---                                                  |
@@ -22,7 +22,7 @@ title: Schedule
 | 11   | Nov 7:                                     | Nov 9:                                        | Nov 10:                                               |
 | 12   | Nov 14:                                    | Nov 16:                                       | Nov 17:                                               |
 | 13   | Nov 21:                                    | Nov 23: Thanksgiving Break<br /> **No Class** | Nov 24: Thanksgiving Break<br /> **No Class**         |
-| 14   | Nov 28:                                    | Nov 30:                                       | Dec 1:                                                |
+| 14   | Nov 28:                                    | Nov 30:                                       | Dec 1:  Project Due 5:00PM                                             |
 | 15   | Dec 5:                                     | Dec 7:                                        | Dec 8:                                                |
 | 16   | Dec 11 (MONDAY 2:00PM):<br />**Final Exam**<br />Section 1  | Dec 14 (2:00PM):<br />**Final Exam**<br />Section 2    |                             |
 
