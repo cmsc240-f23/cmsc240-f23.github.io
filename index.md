@@ -13,7 +13,7 @@ title: CMSC 240 Software Systems Development - Fall 2023
                     <ul>
                         <li>Tue 3:00PM - 4:00PM</li>
                         <li>Fri 2:30PM - 4:30PM</li>
-                        <li>and by appointment at <a href="https://calendly.com/davidbalash">https://calendly.com/davidbalash</a> or by email </li> 
+                        <li>and by appointment at <a href="https://calendly.com/davidbalash">https://calendly.com/davidbalash</a></li> 
                     </ul>
                 </li>
             </ul>
@@ -43,6 +43,5 @@ title: CMSC 240 Software Systems Development - Fall 2023
 * [Syllabus](/syllabus.html)
 * [Class Schedule](/schedule.html)
 * [Guides](/guides)
-* [Videos](/videos)
 * [Ed](https://us.edstem.org) -- for questions
 

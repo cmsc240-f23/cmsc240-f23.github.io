@@ -6,7 +6,7 @@ title: Setting up VS Code
 
 # Using VSCode with Git and SSH to Complete/Submit a programming Assignment
 
-> Before starting, you should have completed the [VScode Setup Guide with SSH](guides/vscode-ssh). This guide assume you have VScode and SSH capabilities installed, as well as the VSCode extension Remote Development Extension. 
+> Before starting, you should have completed the [VScode Setup Guide with SSH](vscode-ssh). This guide assume you have VScode and SSH capabilities installed, as well as the VSCode extension Remote Development Extension. 
 
 
 1. Accept the GitHub classroom assignment and follow the link to the repository. For example, if you are working on Lab 1, after accepting the assignment, you'll have a new repository named `lab-1-username` where `username` is your GitHub username. 
