@@ -39,44 +39,36 @@ title: VScode with SSH client
 > Note you only need to do this once
 
 1. Once your connected to `cs01 - cs06` via instructions above open an integrated terminal
-
-- Open the command pallet with **F1** key
-- Type/select `Terminal: Create New Terminal` 
-- Alternatively you can `Terminal` menu and select `New Terminal`
-- Alternatively you can `Terminal` menu and select `New Terminal`
-- Note:  You should be on a remote terminal it will have a prommpt that reads something like `[dbalash@cs01 ~]$`
-
+   - Open the command pallet with **F1** key
+   - Type/select `Terminal: Create New Terminal` 
+   - Alternatively you can `Terminal` menu and select `New Terminal`
+   - Alternatively you can `Terminal` menu and select `New Terminal`
+   - Note:  You should be on a remote terminal it will have a prommpt that reads something like `[dbalash@cs01 ~]$`
 
 2. Follow these steps to generate a ssh-key with `ssh-keygen`
-- In the terminal type
+   - In the terminal type
 
    ```
    ssh-keygen
    ```
-
- - **Hit enter to each of the questions**
-   
-- No, you do not need a passphrase
+   - **Hit enter to each of the questions**
+   - No, you do not need a passphrase
 
 3. Follow these steps to copy your public key
-
-- In the terminal type
-
+   - In the terminal type
    ```
    cat .ssh/id_rsa.pub
    ```
-
-- This will print out your public key, select and copy it from thee terminal
-
-- Make sure you copy the whole thing beginning with `ssh-rsa` ending with something like `urnetid@cs01` or `urnetid@l1-jps-225-lx07`
+   - This will print out your public key, select and copy it from the terminal
+   - Make sure you copy the whole thing beginning with `ssh-rsa` ending with something like `urnetid@cs01` or `urnetid@l1-jps-225-lx07`
   
 4. Go to [github.com](github.com) and add your SSH key
-- make sure you're logged in
-- select your icon in the upper right
-- select settings
-- select `SSH and GPG Keys` from the options
-- click the green button `New SSH key`
-- Paste your ssh-key you copied from above in there and hit enter
+   - make sure you're logged in
+   - select your icon in the upper right
+   - select settings
+   - select `SSH and GPG Keys` from the options
+   - click the green button `New SSH key`
+   - Paste your ssh-key you copied from above in there and hit enter
    
 5. Once you do that, you shouldn't need a password to push/pull your repos
 
