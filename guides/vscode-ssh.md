@@ -28,9 +28,9 @@ title: VScode with SSH client
 
    
 5. Open a new VSCode Window
-   -- Open the command pallet with **F1** key
+   -- Open the command pallet with **F1** key. On MAC OS you may need to hit **fn-F1** ("Function" key and F1 at the same time). 
    -- Type `Remote-SSH: Connect to host`
-   -- Then enter `urnetid@cs01.richmond.edu` where `urnetid` is your NetID for UR. 
+   -- Then enter `YOUR_URNETID@cs01.richmond.edu` where `YOUR_URNETID` is your NetID for UR. 
    -- The available Linux machines are cs01 - cs06.  You may need to try multiple machines if one of them is powered off.
    -- If prompted for the operating system, select Linux, and hit select that you want to continue when it mentions a fingerprint.
    -- Hit enter, and you may be prompted for a password, enter your UR account password
@@ -52,14 +52,16 @@ title: VScode with SSH client
       ```
       ssh-keygen
       ```
-   -- Hit enter to each of the questions
-   -- No, you do not need a passphrase
+- **Hit enter to each of the questions**
+
+- No, you do not need a passphrase
 
 3. Copy your public key
-   -- In the terminal type
-      ```
+- In the terminal type
+
+```Shell
       cat .ssh/id_rsa.pub
-      ```
+```
   -- This will print out your public key, select and copy it from thee terminal
   -- Make sure you copy the whole thing beginning with `ssh-rsa` ending with something like `urnetid@cs01`
   
