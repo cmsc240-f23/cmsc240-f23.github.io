@@ -20,6 +20,7 @@ title: VScode with SSH client
    ```
    sudo apt-get install openssh-client
    ```
+   
 - MacOS : Comes pre-installed
 - Windows : Install [Git for Windows](https://git-scm.com/download/win) comes with an ssh client
    
