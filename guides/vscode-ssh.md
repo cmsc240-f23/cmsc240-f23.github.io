@@ -52,18 +52,18 @@ title: VScode with SSH client
       ```
       ssh-keygen
       ```
-- **Hit enter to each of the questions**
-
-- No, you do not need a passphrase
+   -- **Hit enter to each of the questions**
+   
+   -- No, you do not need a passphrase
 
 3. Copy your public key
-- In the terminal type
-
-```Shell
+   -- In the terminal type
+      ```
       cat .ssh/id_rsa.pub
-```
-  -- This will print out your public key, select and copy it from thee terminal
-  -- Make sure you copy the whole thing beginning with `ssh-rsa` ending with something like `urnetid@cs01`
+      ```
+   -- This will print out your public key, select and copy it from thee terminal
+
+   -- Make sure you copy the whole thing beginning with `ssh-rsa` ending with something like `urnetid@cs01`
   
 4. Go to [github.com](github.com) and add your SSH key
    -- make sure you're logged in
