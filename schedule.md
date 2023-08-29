@@ -9,7 +9,7 @@ title: Schedule
 
 | Week | Lecture (Tue)                              | Lecture (Thr)                                 | Lab (Fri)(Wed)                                        |
 | :--- | :---                                       | :---                                          | :---                                                  |
-| 1    | Aug 29:  Read Text: Chapter 2              | Aug 31:                                       | Sep 1:  Lab 1 Unix/Linux<br /> (Due Thu Sep 7 5:00PM)                  |
+| 1    | Aug 29:  [Module 1: Introduction](https://classroom.github.com/a/4yzVPmFm)<br />Read Text: Chapter 2<br />Read [Unix Tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/): Intro, T1, T2              | Aug 31:                                       | Sep 1:  Lab 1 Unix/Linux<br /> (Due Thu Sep 7 5:00PM)                  |
 | 2    | Sep 5:   Read Text: Chapter 3              | Sep 7:                                        | Sep 8:  Lab 2 File I/O<br /> (Due Thu Sep 14 5:00PM)                 |
 | 3    | Sep 12:  Read Text: Chapter 17             | Sep 14:                                       | Sep 15: Lab 3 Classes<br /> (Due Thu Sep 21 5:00PM)                 |
 | 4    | Sep 19:                                    | Sep 21:                                       | Sep 22: Lab 4 GDB<br /> (Due Thu Sep 28 5:00PM)                 |
