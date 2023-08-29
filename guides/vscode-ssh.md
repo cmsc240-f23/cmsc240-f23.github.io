@@ -15,13 +15,13 @@ title: VScode with SSH client
 2. Install the [Remote - SSH Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 
 3. Install SSH on your local computer
-* Ubuntu/Debian : Comes pre-installed but if it doesn't
+- Ubuntu/Debian : Comes pre-installed but if it doesn't
 
    ```
    sudo apt-get install openssh-client
    ```
-* MacOS : Comes pre-installed
-* Windows : Install [Git for Windows](https://git-scm.com/download/win) comes with an ssh client
+- MacOS : Comes pre-installed
+- Windows : Install [Git for Windows](https://git-scm.com/download/win) comes with an ssh client
    
 4. If you are using a wireless connection, you must connect via the **urwin** network.
    If you are connecting from off campus, then use the UR VPN
@@ -95,7 +95,6 @@ title: VScode with SSH client
 - Open the command pallet with **F1** key
 - Type/select `Terminal: Create New Terminal` 
 - Alternatively you can `Terminal` menu and select `New Terminal`
-ç
 
 2. In the terminal run the following commands
 
