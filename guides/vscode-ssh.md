@@ -47,7 +47,6 @@ title: VScode with SSH client
 
 2. Follow these steps to generate a ssh-key with `ssh-keygen`
    - In the terminal type
-
    ```
    ssh-keygen
    ```
