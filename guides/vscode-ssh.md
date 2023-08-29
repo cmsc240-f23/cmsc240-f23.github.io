@@ -86,11 +86,11 @@ title: VScode with SSH client
 2. In the terminal run the following commands
 
    ```
-   git config --global user.name "John Doe"
+   git config --global user.name "JohnDoe"
    git config --global user.email johndoe@example.com
    ```
    
-   Where `John Doe` is replaced with your name and `johndoe@example.com` is replaced with the email address you used to sign up to GitHub
+   Where `JohnDoe` is replaced with your name and `johndoe@example.com` is replaced with the email address you used to sign up to GitHub
    
 
 
