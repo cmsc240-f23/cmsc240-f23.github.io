@@ -15,25 +15,22 @@ title: VScode with SSH client
 2. Install the [Remote - SSH Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh)
 
 3. Install SSH on your local computer
-- Ubuntu/Debian : Comes pre-installed but if it doesn't
-- MacOS : Comes pre-installed
-- Windows : Install [Git for Windows](https://git-scm.com/download/win) comes with an ssh client
-   
+   - Ubuntu/Debian : Comes pre-installed but if it doesn't
+   - MacOS : Comes pre-installed
+   - Windows : Install [Git for Windows](https://git-scm.com/download/win) comes with an ssh client
+
 4. If you are using a wireless connection, you must connect via the **urwin** network.
    If you are connecting from off campus, then use the UR VPN
+   - See this [guide](https://spidertechnet.richmond.edu/TDClient/1955/Portal/KB/ArticleDet?ID=93543) from SpiderTechNet for more details.
 
-- See this [guide](https://spidertechnet.richmond.edu/TDClient/1955/Portal/KB/ArticleDet?ID=93543) from SpiderTechNet for more details.
-
-   
 5. Open a new VSCode Window
-
-- Open the command pallet with **F1** key. On MAC OS you may need to hit **fn-F1** ("Function" key and F1 at the same time). 
-- Type `Remote-SSH: Connect to host`
-- Then enter `YOUR_URNETID@cs01.richmond.edu` where `YOUR_URNETID` is your NetID for UR. 
-- The available Linux machines are cs01 - cs06.  You may need to try multiple machines if one of them is powered off.
-- If prompted for the operating system, select Linux, and hit select that you want to continue when it mentions a fingerprint.
-- Hit enter, and you may be prompted for a password, enter your UR account password
-- Once your connected you should see a blue bar at the bottom left saying something like `SSH cs01.richmond.edu.`
+   - Open the command pallet with **F1** key. On MAC OS you may need to hit **fn-F1** ("Function" key and F1 at the same time). 
+   - Type `Remote-SSH: Connect to host`
+   - Then enter `YOUR_URNETID@cs01.richmond.edu` where `YOUR_URNETID` is your NetID for UR. 
+   - The available Linux machines are cs01 - cs06.  You may need to try multiple machines if one of them is powered off.
+   - If prompted for the operating system, select Linux, and hit select that you want to continue when it mentions a fingerprint.
+   - Hit enter, and you may be prompted for a password, enter your UR account password
+   - Once your connected you should see a blue bar at the bottom left saying something like `SSH cs01.richmond.edu.`
 
 
 
