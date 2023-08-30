@@ -13,53 +13,67 @@ title: Setting up VS Code
 
 2. Copy the repository link by clicking the `Code` label
 
-   ![Github Repo Link](/images/vscode-git-repo.png)
+   ![Github Repo Link](/images/module1-git.png)
 
-   If you have setup an ssh key, use ssh, otherwise use HTTPS.
+   You should have setup an ssh key, use ssh.
    
-   To setup an ssh key, see this [guide](https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/connecting-to-github-with-ssh)
+   To setup an ssh key, see this [guide](vscode-ssh.md)
 
-3. Open up a new window in VScode via `File->New Window` or &#8984;&#8679;N / Ctrl&#8679;. Then click the explorer and then `Clone Repository`
+3. In a VSCode window where you have connected remotely to a Linux machine, cs01-cs06 (refer to this [guide](vscode-ssh.md)). Click the `Source Control` icon on the left hand side. Then click the explorer and then `Clone Repository`
 
-   ![VScode New Window, Explore, Clone Repository](/images/vscode-explorer-clone-repo.png)
+   ![VScode New Window, Explore, Clone Repository](/images/Clone-Repo.png) 
 
 
    
-4. Enter the repo link in the command pallet and confirm the file location you want to cloen the repository to. 
+4. Enter the repo link in the command pallet. 
 
-   ![Enter repo link](/images/vscode-clone-repo-link.png)
-   ![Confirm Location](/images/confirm_file_location.PNG)
+   ![Enter repo link](/images/Clone-Repo2.png)
+
+
+5. Choose a folder where you want to clone the repository.
+   ![Confirm Location](/images/Clone-Repo3.png)
    
 
 
-5. You will be prompted where to save the repo. Save it wherever you want, but I like to create a folder called `git` or `vscode` to save all my projects. 
+6. You will be prompted where to save the repo. Save it wherever you want, but I like to create a folder called `repos` or `cs240` to save my projects. 
 
-6. Go ahead and open the repo in this window by selecting `Open`
+7. Go ahead and open the repo in this window by selecting `Open`
 
-   ![Open in this window](/images/vscode-open.png)
+   ![Open in this window](/images/Clone-Repo-Open.png)
+
+8. Click Yes, I trust the authors to continue.
+
+   ![Init Complete](/images/Clone-Repo-Trust-Authors.png)
 
 
+9. Once complete, you'll have your workspace ready to go.
+
+   ![Init Complete](/images/Clone-Repo-Working.png)
+
+10.  Do your work. **Save your changes.** And once done, you need to commit your work. Start by clicking on the repo symbol.
+
+   ![Repo symbol](/images/VSCodeGitRepoSymbol.png)
+
+11.  Add the modified files (or new files) to be staged for commit by pressing the `+` next to the files you want to add.
+
+   ![add files to the commit](/images/VSCodeGitChanges.png)
+
+   The files are now staged.
+
+   ![add files to the commit](/images/VSCodeGitStagedChanges.png)
+
+12. Type a message in the text area above the `Commit` button. Click the &#10003;`Commit` button to perform the commit.
+
+   ![add files to the commit](/images/VSCodeGitCommitMessage.png)
 
 
-7. Once complete, you'll have your workspace ready to go and integrated terminal open.
+13. Finally, push your changes to github by clicking the `Sync` button.
 
-   ![Init Complete](/images/vscode-init-complete.png)
+   ![Push changes](/images/VSCodeGitSync.png)
 
-8.  Do your work. And once done, you need to commit your work. Start by clicking on the repo symbol
+14. Finally, finally, you should go back to GitHub as a final check to make sure you pushed all your changes.
 
-    ![Repo symbol](/images/vscode-repo-symbol.png)
-
-9.  Add the modified files (or new files) to be staged for commit by pressing the `+`
-
-    ![add files to the commit](/images/vscode-git-add.png)
-
-10. Click the &#10003; to perform the commit 
-
-11. Finally, push your changes to github by clicking the `...` at the top and selecting push
-
-    ![Push changes](/images/vscode-git-push.png)
-
-12. Finally, finally, you should go back to github as a final check to make sure you pushed all your changes.
+   ![Push changes](/images/VSCodeGitGitHub.png)
 
 ## Using the git command line in the integrated terminal
 
@@ -85,8 +99,8 @@ If you're getting a error saying you need to setup your name and email, then ope
 
 
    ```
-   git config --global user.name "John Doe"
+   git config --global user.name "JohnDoe"
    git config --global user.email johndoe@example.com
    ```
    
-Where `John Doe` is replaced with your name and `johndoe@example.com` is replaced with the email address you used to sign up to github
+Where `JohnDoe` is replaced with your name and `johndoe@example.com` is replaced with the email address you used to sign up to github
