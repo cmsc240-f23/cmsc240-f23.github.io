@@ -9,52 +9,43 @@ title: Setting up VS Code
 > Before starting, you should have completed the [VScode Setup Guide with SSH](vscode-ssh). This guide assume you have VScode and SSH capabilities installed, as well as the VSCode extension Remote Development Extension. 
 
 
-1. Accept the GitHub classroom assignment and follow the link to the repository. For example, if you are working on Lab 1, after accepting the assignment, you'll have a new repository named `lab-1-username` where `username` is your GitHub username. 
+1. Accept the GitHub classroom assignment and follow the link to the repository. For example, if you are working on Lab 1, after accepting the assignment, you'll have a new repository named `lab-1-username` where `username` is your GitHub username. The assignments can all be found on the [schedule page](schedule.md).
 
-2. Copy the repository link by clicking the `Code` label
+2. Copy the repository link by clicking the `Code` button and then the `SSH` label, followed by the `copy/paste` button.
 
    ![Github Repo Link](/images/module1-git.png)
 
-   You should have setup an ssh key, use ssh.
-   
-   To setup an ssh key, see this [guide](vscode-ssh.md)
+   You should have already set up an ssh key by following this [guide](vscode-ssh.md).
 
-3. In a VSCode window where you have connected remotely to a Linux machine, cs01-cs06 (refer to this [guide](vscode-ssh.md)). Click the `Source Control` icon on the left hand side. Then click the explorer and then `Clone Repository`
+3. In a VSCode window where you have connected remotely to a Linux machine, cs01-cs06 (refer to this [guide](vscode-ssh.md)). Click the `Source Control` icon on the left hand side. Then click the `Clone Repository` button.
 
    ![VScode New Window, Explore, Clone Repository](/images/Clone-Repo.png) 
 
-
-   
-4. Enter the repo link in the command pallet. 
+4. Paste the repository link that you copied in step 2 in the command pallet. 
 
    ![Enter repo link](/images/Clone-Repo2.png)
 
-
-5. Choose a folder where you want to clone the repository.
+5. Choose a folder where you want to clone the repository. Save it wherever you want, but I like to create a folder called `Repos` or `cs240` to save my projects.
    ![Confirm Location](/images/Clone-Repo3.png)
    
 
-
-6. You will be prompted where to save the repo. Save it wherever you want, but I like to create a folder called `repos` or `cs240` to save my projects. 
-
-7. Go ahead and open the repo in this window by selecting `Open`
+6. Go ahead and open the repo in this window by selecting `Open`
 
    ![Open in this window](/images/Clone-Repo-Open.png)
 
-8. Click Yes, I trust the authors to continue.
+7. Click Yes, I trust the authors to continue.
 
    ![Init Complete](/images/Clone-Repo-Trust-Authors.png)
 
-
-9. Once complete, you'll have your workspace ready to go.
+8. Once complete, you'll have your workspace ready to go.
 
    ![Init Complete](/images/Clone-Repo-Working.png)
 
-10.  Do your work. **Save your changes.** And once done, you need to commit your work. Start by clicking on the repo symbol.
+9.  Do your work. **Save your changes.** And once done, you need to commit your work. Start by clicking on the `Source Control` symbol on the left.
 
    ![Repo symbol](/images/VSCodeGitRepoSymbol.png)
 
-11.  Add the modified files (or new files) to be staged for commit by pressing the `+` next to the files you want to add.
+10.  Add the modified files (or new files) to be staged for commit by pressing the `+` next to the files you want to add.
 
    ![add files to the commit](/images/VSCodeGitChanges.png)
 
@@ -62,23 +53,26 @@ title: Setting up VS Code
 
    ![add files to the commit](/images/VSCodeGitStagedChanges.png)
 
-12. Type a message in the text area above the `Commit` button. Click the &#10003;`Commit` button to perform the commit.
+11. Type a message in the text area above the `Commit` button. Click the &#10003;`Commit` button to perform the commit.
 
    ![add files to the commit](/images/VSCodeGitCommitMessage.png)
 
+12. Finally, **push** your changes to GitHub by clicking the `...` button, followed by selecting `Push` from the dropdown menu.
 
-13. Finally, push your changes to github by clicking the `Sync` button.
+   ![Push changes](/images/VSCodeGitPush.png)
 
-   ![Push changes](/images/VSCodeGitSync.png)
+13. **Alternatively**, you could click the `Sync` button, which will both **push** your changes, and **pull** down any changes to the repository that exist on GitHub.  
+
+   ![Push changes](/images/VSCodeGitSync.png)  
 
 14. Finally, finally, you should go back to GitHub as a final check to make sure you pushed all your changes.
 
    ![Push changes](/images/VSCodeGitGitHub.png)
 
+
 ## Using the git command line in the integrated terminal
 
 You can also use the command line to do the git commands. 
-
 
 ```
 git add file.txt        #add a file to the commit
