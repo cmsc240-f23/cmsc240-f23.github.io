@@ -10,8 +10,10 @@ title: Setting up VS Code
 
 
 1. Accept the GitHub classroom assignment and follow the link to the repository. For example, if you are working on Lab 1, after accepting the assignment, you'll have a new repository named `lab-1-username` where `username` is your GitHub username. The assignments can all be found on the [schedule page](schedule.md).
+
 2. Copy the repository link by clicking the `Code` button and then the `SSH` label, followed by the `copy/paste` button. You should have already set up an ssh key by following this [guide](vscode-ssh.md).
    ![Github Repo Link](/images/module1-git.png)
+
 3. In a VSCode window where you have connected remotely to a Linux machine, cs01-cs06 (refer to this [guide](vscode-ssh.md)). Click the `Source Control` icon on the left hand side. Then click the `Clone Repository` button.
    ![VScode New Window, Explore, Clone Repository](/images/Clone-Repo.png) 
 4. Paste the repository link that you copied in step 2 in the command pallet. 
@@ -33,6 +35,7 @@ title: Setting up VS Code
 12. Type a message in the text area above the `Commit` button. Click the &#10003;`Commit` button to perform the commit.
    ![add files to the commit](/images/VSCodeGitCommitMessage.png)
 13. Finally, **push** your changes to GitHub by clicking the `...` button, followed by selecting `Push` from the dropdown menu.
+
    ![Push changes](/images/VSCodeGitPush.png)
 14. **Alternatively**, you could click the `Sync` button, which will both **push** your changes, and **pull** down any changes to the repository that exist on GitHub.  
    ![Push changes](/images/VSCodeGitSync.png)  
