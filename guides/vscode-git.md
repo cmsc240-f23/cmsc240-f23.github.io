@@ -49,23 +49,23 @@ title: Setting up VS Code
 
    ![add files to the commit](/images/VSCodeGitChanges.png)
 
-   The files are now staged.
+11. The files are now staged.
 
    ![add files to the commit](/images/VSCodeGitStagedChanges.png)
 
-11. Type a message in the text area above the `Commit` button. Click the &#10003;`Commit` button to perform the commit.
+12. Type a message in the text area above the `Commit` button. Click the &#10003;`Commit` button to perform the commit.
 
    ![add files to the commit](/images/VSCodeGitCommitMessage.png)
 
-12. Finally, **push** your changes to GitHub by clicking the `...` button, followed by selecting `Push` from the dropdown menu.
+13. Finally, **push** your changes to GitHub by clicking the `...` button, followed by selecting `Push` from the dropdown menu.
 
    ![Push changes](/images/VSCodeGitPush.png)
 
-13. **Alternatively**, you could click the `Sync` button, which will both **push** your changes, and **pull** down any changes to the repository that exist on GitHub.  
+14. **Alternatively**, you could click the `Sync` button, which will both **push** your changes, and **pull** down any changes to the repository that exist on GitHub.  
 
    ![Push changes](/images/VSCodeGitSync.png)  
 
-14. Finally, finally, you should go back to GitHub as a final check to make sure you pushed all your changes.
+15. Finally, finally, you should go back to GitHub as a final check to make sure you pushed all your changes.
 
    ![Push changes](/images/VSCodeGitGitHub.png)
 
