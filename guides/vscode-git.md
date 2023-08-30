@@ -35,7 +35,6 @@ title: Setting up VS Code
 12. Type a message in the text area above the `Commit` button. Click the &#10003;`Commit` button to perform the commit.
    ![add files to the commit](/images/VSCodeGitCommitMessage.png)
 13. Finally, **push** your changes to GitHub by clicking the `...` button, followed by selecting `Push` from the dropdown menu.
-
    ![Push changes](/images/VSCodeGitPush.png)
 14. **Alternatively**, you could click the `Sync` button, which will both **push** your changes, and **pull** down any changes to the repository that exist on GitHub.  
    ![Push changes](/images/VSCodeGitSync.png)  
