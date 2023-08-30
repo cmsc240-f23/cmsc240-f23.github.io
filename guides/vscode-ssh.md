@@ -42,7 +42,6 @@ title: VScode with SSH client
    - Open the command pallet with **F1** key
    - Type/select `Terminal: Create New Terminal` 
    - Alternatively you can `Terminal` menu and select `New Terminal`
-   - Alternatively you can `Terminal` menu and select `New Terminal`
    - Note:  You should be on a remote terminal it will have a prommpt that reads something like `[dbalash@cs01 ~]$`
 
 2. Follow these steps to generate a ssh-key with `ssh-keygen`
