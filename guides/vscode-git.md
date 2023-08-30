@@ -49,7 +49,7 @@ You can also use the command line to do the git commands.
 ```
 git add file.txt        #add a file to the commit
 git commit -m "message" #perform the commit with the commit message
-git push                #push the commit to github 
+git push                #push the commit to GitHub 
 ```
 
 If you want to add all the files that have been modified and commit all at once, use the following
@@ -61,12 +61,19 @@ git commit -a -m "message"
 
 ## Asking you to set up your git profile?
 
-If you're getting a error saying you need to setup your name and email, then open the integrated terminal and type these two commands
+If you're getting a error saying you need to setup your name and email, then open the integrated terminal on your remotely connected (cs01 - cs06) VSCode window. Then follow the steps below.
 
-
+> You only need to do this once
+   
+1. In the terminal run the following commands 
    ```
    git config --global user.name "JohnDoe"
    git config --global user.email johndoe@example.com
    ```
-   
-Where `JohnDoe` is replaced with your name and `johndoe@example.com` is replaced with the email address you used to sign up to github
+   - Where `JohnDoe` is replaced with your GitHub username and `johndoe@example.com` is replaced with the email address you used to sign up to GitHub
+
+2. To verify your settings run the following command.
+   ```
+   git config --list
+   ```
+3. Done.

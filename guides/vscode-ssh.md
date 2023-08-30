@@ -83,7 +83,7 @@ title: VScode with SSH client
    git config --global user.name "JohnDoe"
    git config --global user.email johndoe@example.com
    ```
-   - Where `JohnDoe` is replaced with your name and `johndoe@example.com` is replaced with the email address you used to sign up to GitHub
+   - Where `JohnDoe` is replaced with your GitHub username and `johndoe@example.com` is replaced with the email address you used to sign up to GitHub
 
 3. To verify your settings run the following command.
    ```
