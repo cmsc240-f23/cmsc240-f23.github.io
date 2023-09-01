@@ -68,7 +68,13 @@ title: VScode with SSH client
    - click the green button `New SSH key`
    - Paste your ssh-key you copied from above in there and hit enter
    
-5. Once you do that, you shouldn't need a password to push/pull your repos
+5. To test the secure connection run the following command in the terminal.
+   ```Shell
+   ssh -T git@github.com
+   ``` 
+6. It may ask the following "Are you sure you want to continue connecting (yes/no/[fingerprint])?" Type `yes` and hit `Enter`.
+
+7. If you seen the message "You've successfully authenticated, but GitHub does not provide shell access." It worked!  You are done with the setup and you shouldn't need a password to push/pull your repos.  
 
 ### Setting up your git profile on `cs01 - cs06`
 
