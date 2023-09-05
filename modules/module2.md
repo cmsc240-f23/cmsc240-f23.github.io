@@ -6,8 +6,7 @@ permalink: module/2
 # Module 2: Functions, Strings, and Command Line Arguments
 
 * First read this page then start coding module with the GitHub classroom link below.
-* Github Classroom Link: [TBD](tbd)
-
+* Github Classroom Link: [https://classroom.github.com/a/IttbsZG7](https://classroom.github.com/a/IttbsZG7)
 
 
 ## Exercise 1: <a class="anchor" id="exercise_1"></a>
@@ -115,12 +114,16 @@ Usage: ./palindrome <string-to-check>
 
 ### Compiling Multiple Files
 
-To compile the code in the exercise2 directory with `g++` the GNU C++ compiler using the following command:
+To compile the code in the `exercise2` directory with `g++` the GNU C++ compiler using the following command:
 
 ```Shell
 g++ main.cpp one.cpp two.cpp -o program
 ```
 
-In the README.md file, explain how the main.cpp code has access to the functions `printOne()` and `printTwo()`.  Explain both where the function declarations are stored, and the steps the compiler is taking to build the `program` executable.  
+<div class="requirement">
+
+In the module2 README.md file, explain how the `main()` function in main.cpp has access to the functions `printEven()` and `printOdd()`.  Explain both where the function declarations are stored, and the steps the compiler is taking to build the `program` executable. 
+
+</div> 
 
 ---
