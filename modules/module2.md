@@ -31,7 +31,8 @@ There are two main ways for testing if a string is a palindrome:
 
 You will implement both. The main portion of the program, provided to you, looks like this:
 
-```C
+```c
+
 // The main function, were the program begins.
 int main(int argc, char* argv[])
 {
@@ -69,6 +70,7 @@ int main(int argc, char* argv[])
 
     return 0;
 }
+
 ```
 
 
