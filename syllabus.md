@@ -132,6 +132,16 @@ You are expected to submit well-written code:
   - Additionally, your code should be compile in a standard, pre-described way for the class (e.g., via the `g++` compiler)
 - Be able to describe and answer questions about your code when prompted.
 
+### Late Work Policy
+
+Assignments including modules and labs may be submitted late with a **10%** deduction **per day** late.  
+
+Each student will have two "**late passes**" per semester to use on modules and labs.  To use a late pass, notify me which assignment you would like to use it on and you may turn that assignment in **one week late for full credit**. 
+
+Late passes may **not** be used on the final project or exams.   
+
+In cases of personal illnesses, emergencies, or documented accomidations, assignments may be submitted late for full credit if you notify me of your situation.
+
 
 ### Attendance Policy
 Regular attendance for the entire class time is expected. Students should not miss more than 4 total sessions (including lecture and lab). Students who have to quarantine due to COVID or miss class for other legitimate reasons will not be penalized for their absence during those classes.
