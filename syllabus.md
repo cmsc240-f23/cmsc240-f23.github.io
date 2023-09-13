@@ -136,11 +136,11 @@ You are expected to submit well-written code:
 
 Assignments including modules and labs may be submitted late with a **10%** deduction **per day** late.  
 
-Each student will have two "**late passes**" per semester to use on modules and labs.  To use a late pass, notify me which assignment you would like to use it on and you may turn that assignment in **one week late for full credit**. 
+Each student will have two "**late passes**" per semester to use on modules and labs.  To use a late pass, notify me which assignment you would like to use it on, and you may turn that assignment in **one week late for full credit**. 
 
 Late passes may **not** be used on the final project or exams.   
 
-In cases of personal illnesses, emergencies, or documented accomidations, assignments may be submitted late for full credit if you notify me of your situation.
+In cases of personal illnesses, emergencies, or documented accommodations, assignments may be submitted late for full credit if you notify me of your situation.
 
 
 ### Attendance Policy
