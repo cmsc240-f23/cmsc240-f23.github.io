@@ -5,7 +5,9 @@ title: Schedule
 
 # Course Schedule of Topics and Due Dates
 
-* Course schedule is subject to change as the semseter progresses.  
+* Course schedule is subject to change as the semseter progresses. 
+
+* **Note**: If a time is not specified for a due date, then it is due at 11:59PM (in Richmond, VA).
 
 | Week | Lecture (Tue)                              | Lecture (Thr)                                 | Lab (Fri)                                        |
 | :--- | :---                                       | :---                                          | :---                                                  |
