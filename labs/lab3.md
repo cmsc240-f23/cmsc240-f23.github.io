@@ -11,25 +11,27 @@ permalink: lab/3
 * Write the names of each team member at the top of your README.md file in your individual repositories. 
 
 * First read this page then start coding the lab with the GitHub classroom link below.
+
 * Put the answers to the questions below in the README.md file in the GitHub repository for this lab.
-* Github Classroom Link: []()
+
+* Github Classroom Link: [https://classroom.github.com/a/d70UszZH](https://classroom.github.com/a/d70UszZH)
 
 
 
 
 ### Objective
- Understand and practice file handling in C++ using pointers, dynamic memory allocation, references, and structs.
+Understand and practice file handling in C++ using pointers, dynamic memory allocation, references, and structs.
 
 
 ## Exercise 1
 
 Open `ProgramOne.cpp` in an editor and inspect the source code. This program has a `changeValue` method which uses **pass-by-value** parameters.
 
-Now compile and run the program.
+**Now compile and run the program.**
 
-1. What changes do you notice in the before and after versions of the UR id and name? 
+**1.** What changes do you notice in the before and after versions of the UR id and name? 
 
-2. Why? 
+**2.** Why? 
 
 Keeping the original method intact, write a new but similar `changeValue` method with a different signature using pointers as the parameters (don’t forget your method prototype, if appropriate):
 
@@ -41,9 +43,9 @@ Back in `main`, in addition to the existing method call, include a call to this 
 
 **Recompile and run.**
 
-3. What changes do you notice in the before and after versions as a result of calling your new method?
+**3.** What changes do you notice in the before and after versions as a result of calling your new method?
 
-4. Why? 
+**4.** Why? 
 
 Now, change the original **pass-by-value** version of the `changeValue` method to use reference parameters:
 
@@ -56,15 +58,15 @@ From the C++ Super-FAQ: [https://isocpp.org/wiki/faq/references#overview-refs](h
 
 **Important note**: Even though a reference is often implemented using an address in the underlying assembly language, please do not think of a reference as a funny looking pointer to an object. A reference **is** the object, just with another name. It is neither a pointer to the object, nor a copy of the object. It **is** the object. There is no C++ syntax that lets you operate on the reference itself separate from the object to which it refers.
 
-In the definition of the method, make sure that you do not dereference the parameters when doing the assignment. Note that back in main, you already have a call to this new method (it does not explicitly pass addresses for arguments) and subsequent `cout`. 
+In the definition of the method, make sure that you do not dereference the parameters when doing the assignment. Note that back in `main`, you already have a call to this new method (it does not explicitly pass addresses for arguments) and subsequent `cout`. 
 
 **Compile and run the program again**, and you should notice that the reference parameters cause the before and after values to change.
 
-5. What code changes are required when using a pointer as a parameter?
+**5.** What code changes are required when using a pointer as a parameter?
 
-6. What code changes are required when using a C++ reference as a parameter?
+**6.** What code changes are required when using a C++ reference as a parameter?
 
-7. What is the primary difference (in terms of effect) between **pass-by-value** and **pass-by-reference**?
+**7.** What is the primary difference (in terms of effect) between **pass-by-value** and **pass-by-reference**?
 
 
 ## Exercise 2
@@ -73,20 +75,20 @@ Open `ProgramTwo.cpp` in an editor and inspect the source code. Note that the me
 
 **Compile and run the program.**
 
-8. What changes do you notice in the before and after versions of `anInt` and `intPtr`?
+**8.** What changes do you notice in the before and after versions of `anInt` and `intPtr`?
 
-9. For `anInt`, why?  
+**9.** For `anInt`, why?  
 
-10. For `intPtr`, why? 
+**10.** For `intPtr`, why? 
 
 
 ## Exercise 3
 
 Open `ProgramThree.cpp` in an editor and inspect the source code. This program makes use of a `struct` to define a student data type, encapsulating a student’s UR ID, name, and netid. 
 
-11. What is the best explanation of the apparent intent of the program as given (even if not successful in that intent)?
+**11.** What is the best explanation of the apparent intent of the program as given (even if not successful in that intent)?
 
-12. Compile and run the program. Does the program accomplish that intent? Why or why not?
+**12.** Compile and run the program. Does the program accomplish that intent? Why or why not?
 
 Modify this program so that it has two methods both named `changeID`: one which uses a pointer parameter and one which uses a reference parameter.
 
@@ -94,7 +96,7 @@ Modify this program so that it has two methods both named `changeID`: one which 
 
 Modify `main` so that your program calls both of these methods and exhibits **pass-by-reference** functionality (you will need to use `cout` statements to convince me of the effect).
 
-13. What is the best explanation of dot versus arrow use?
+**13.** What is the best explanation of dot versus arrow use?
 
 
 
