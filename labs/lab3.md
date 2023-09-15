@@ -25,7 +25,7 @@ Understand and practice file handling in C++ using pointers, dynamic memory allo
 
 ## Exercise 1
 
-Open `ProgramOne.cpp` in an editor and inspect the source code. This program has a `changeValue` method which uses **pass-by-value** parameters.
+Open `ProgramOne.cpp` in an editor and inspect the source code. This program has a `changeValue` function which uses **pass-by-value** parameters.
 
 **Now compile and run the program.**
 
@@ -33,32 +33,32 @@ Open `ProgramOne.cpp` in an editor and inspect the source code. This program has
 
 **2.** Why? 
 
-Keeping the original method intact, write a new but similar `changeValue` method with a different signature using pointers as the parameters (don’t forget your method prototype, if appropriate):
+Keeping the original function intact, write a new but similar `changeValue` function with a different signature using pointers as the parameters (don’t forget your function prototype, if appropriate):
 
 `void changeValue(int* someInt, string* someString);`
 
-In the definition of the method, make sure that you dereference (with the `*` "contents of" operator) the parameters when doing the assignment (and continue to assign a different netid and name). 
+In the definition of the function, make sure that you dereference (with the `*` "contents of" operator) the parameters when doing the assignment (and continue to assign a different netid and name). 
 
-Back in `main`, in addition to the existing method call, include a call to this new method (think carefully about what you need to pass in for arguments) and subsequent `cout`. 
+Back in `main`, in addition to the existing function call, include a call to this new function (think carefully about what you need to pass in for arguments) and subsequent `cout`. 
 
 **Recompile and run.**
 
-**3.** What changes do you notice in the before and after versions as a result of calling your new method?
+**3.** What changes do you notice in the before and after versions as a result of calling your new function?
 
 **4.** Why? 
 
-Now, change the original **pass-by-value** version of the `changeValue` method to use reference parameters:
+Now, change the original **pass-by-value** version of the `changeValue` function to use reference parameters:
 
 `void changeValue(int& someInt, string& someString);`
 
 
-**NOTE**: When you use reference parameters, C++ handles **pass-by-reference** for you automatically. In other words, in the body of your method, you treat the parameters as regular variables (not as pointers, i.e., don’t dereference within your method), and C++ takes care of the **pass-by-reference**. Similarly, when you call your method, pass a variable directly — not using the variable’s address.
+**NOTE**: When you use reference parameters, C++ handles **pass-by-reference** for you automatically. In other words, in the body of your function, you treat the parameters as regular variables (not as pointers, i.e., don’t dereference within your function), and C++ takes care of the **pass-by-reference**. Similarly, when you call your function, pass a variable directly — not using the variable’s address.
 
 From the C++ Super-FAQ: [https://isocpp.org/wiki/faq/references#overview-refs](https://isocpp.org/wiki/faq/references#overview-refs)
 
 **Important note**: Even though a reference is often implemented using an address in the underlying assembly language, please do not think of a reference as a funny looking pointer to an object. A reference **is** the object, just with another name. It is neither a pointer to the object, nor a copy of the object. It **is** the object. There is no C++ syntax that lets you operate on the reference itself separate from the object to which it refers.
 
-In the definition of the method, make sure that you do not dereference the parameters when doing the assignment. Note that back in `main`, you already have a call to this new method (it does not explicitly pass addresses for arguments) and subsequent `cout`. 
+In the definition of the function, make sure that you do not dereference the parameters when doing the assignment. Note that back in `main`, you already have a call to this new function (it does not explicitly pass addresses for arguments) and subsequent `cout`. 
 
 **Compile and run the program again**, and you should notice that the reference parameters cause the before and after values to change.
 
@@ -71,7 +71,7 @@ In the definition of the method, make sure that you do not dereference the param
 
 ## Exercise 2
 
-Open `ProgramTwo.cpp` in an editor and inspect the source code. Note that the method named `changeValue` uses a pointer-type parameter, declares and assigns one local variable, and executes two other assignments on the parameter. 
+Open `ProgramTwo.cpp` in an editor and inspect the source code. Note that the function named `changeValue` uses a pointer-type parameter, declares and assigns one local variable, and executes two other assignments on the parameter. 
 
 **Compile and run the program.**
 
@@ -90,11 +90,11 @@ Open `ProgramThree.cpp` in an editor and inspect the source code. This program m
 
 **12.** Compile and run the program. Does the program accomplish that intent? Why or why not?
 
-Modify this program so that it has two methods both named `changeID`: one which uses a pointer parameter and one which uses a reference parameter.
+Modify this program so that it has two functions both named `changeID`: one which uses a pointer parameter and one which uses a reference parameter.
 
 **NOTE**: Remember that when using a `struct` variable, you use a dot `.` to access a field in the struct, but when using a `struct` pointer, you use an arrow operator `->` to access a field.
 
-Modify `main` so that your program calls both of these methods and exhibits **pass-by-reference** functionality (you will need to use `cout` statements to convince me of the effect).
+Modify `main` so that your program calls both of these functions and exhibits **pass-by-reference** functionality (you will need to use `cout` statements to convince me of the effect).
 
 **13.** What is the best explanation of dot versus arrow use?
 
