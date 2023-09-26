@@ -52,7 +52,7 @@ Key points about block scope:
 In this example, the inner block creates its own variable `height` which hides the `height` variable from the outer block. Once the inner block ends, its `height` goes out of scope, and the outer `height` is accessible again.
 
 __block.cpp__
-```C++
+```c++
 #include <iostream>
 using namespace std;
 
