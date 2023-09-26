@@ -5,7 +5,7 @@ permalink: /lecture/9
 
 # Lecture 9 
 
-[Live Code Link](https://prod.liveshare.vsengsaas.visualstudio.com/join?687BBF28B840414E2DB3760B6FB8457C5391)
+[Live Code Link](https://prod.liveshare.vsengsaas.visualstudio.com/join?5BF3F5D362248C169FBCE354233E557C811B)
 
 ### Objectives
 
