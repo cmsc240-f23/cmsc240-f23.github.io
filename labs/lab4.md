@@ -49,7 +49,7 @@ To encrypt a character using this model, find the character on the inner rotor (
 For example, in this configuration the character 'A' would be encrypted as 'N', since 'A' on the inner rotor is aligned with 'H' on the outer rotor, and 'H' on the middle rotor is aligned with 'N' on the outer rotor. After performing this encryption, the inner rotor is rotated clockwise, so the letter 'A' would next be encrypted as 'D'.
 
 
-Note that decrypting a message requires following the same steps, only in reverse: Find the character on the outer rotor, note the character aligned with it on the middle rotor, find that character on the outer rotor, then output the character aligned with it on the inner rotor. Don't forget to rotate the rotors after each letter is decrypted.
+Note that decrypting a message requires following the same steps, only in reverse: Find the character on the outer rotor, note the character aligned with it on the middle rotor, find that character on the outer rotor, then output the character aligned with it on the inner rotor. Don't forget to rotate the rotors after each letter is decrypted. The rotor is also rotated clockwise during decryption. 
 
 ## Task Requirements
 
@@ -143,6 +143,34 @@ Your `Enigma` and `Rotor` classes must meet the specifications above.
 </div>
 
 ---
+
+### Total Points: 100
+
+- Functionality (30 points)
+   - Correctness (20 points)
+      - Code produces expected output: ___/10
+      - Code handles edge cases appropriately: ___/10
+   - Efficiency (5 points)
+      - Code runs within expected time limits: ___/5
+   - Error Handling (5 points)
+      - Code gracefully handles unexpected inputs or scenarios without crashing: ___/5
+- Completeness (40 points)
+   - All required functionality is implemented: ___/20
+   - Answered lab questions in the README.md: ___/20
+- Code Quality (30 points)
+    - Readability (10 points)
+        - Code has meaningful variable and function names: ___/5
+        - Code is consistently formatted and indented: ___/5
+    - Modularity (10 points)
+        - Code is appropriately divided into functions: ___/5
+        - Each function has a single responsibility: ___/5
+    - Documentation (10 points)
+        - Code includes a header comment explaining the program's purpose: ___/3
+        - Each function has a comment explaining its purpose, inputs, and outputs: ___/5
+        - Inline comments explain non-obvious sections of the code: ___/2
+
+---
+
 #### Acknowledgements
 
 This lab was adopted from CS2113 (Spring 2022) at GW.
