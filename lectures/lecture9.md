@@ -9,6 +9,9 @@ permalink: /lecture/9
 
 In this lecture, we will delve into key concepts of C++ and object-oriented design. We'll explore the nuances of different __scopes__, the role of __friends__ in access control, the importance of __destructors__ in resource management, the principles of __composition__ in system design, and the visualization power of __UML diagrams__. 
 
+### Instructions
+
+Complete the in-class exercises inside the module-5 repository here:  [https://classroom.github.com/a/cmJ3Q07L](https://classroom.github.com/a/cmJ3Q07L)
 
 ### Lecture Topics
 - [Scope](#scope)
@@ -16,10 +19,15 @@ In this lecture, we will delve into key concepts of C++ and object-oriented desi
     - [File Scope](#file_scope)
     - [Class Scope](#class_scope)
     - [Namespace Scope](#namespace_scope)
+    - [Exercise 1](#exercise_1)
 - [Friends](#friends)
+    - [Exercise 2](#exercise_2)
 - [Destructors](#destructors)
+    - [Exercise 3](#exercise_3)
 - [Composition](#composition)
+    - [Exercise 4](#exercise_4)
 - [UML Diagrams](#uml)
+    - [Exercise 5](#exercise_5)
 
 ## Scope <a class="anchor" id="scope"></a>
 
@@ -51,7 +59,7 @@ Key points about block scope:
 #### Example
 In this example, the inner block creates its own variable `height` which hides the `height` variable from the outer block. Once the inner block ends, its `height` goes out of scope, and the outer `height` is accessible again.
 
-__block.cpp__
+[__block.cpp__](https://github.com/cmsc240-f23/code/blob/main/lecture9/scope/block.cpp)
 ```c++
 #include <iostream>
 using namespace std;
@@ -112,7 +120,7 @@ Here's a breakdown of file scope:
 
 In this example, `globalVar` has file scope in __file1.cpp__, but it's made available to __file2.cpp__ using the `extern` keyword. However, `fileScopedVar` is strictly limited to __file1.cpp__ due to the use of the `static` keyword, ensuring it won't conflict with any other `fileScopedVar` in other source files.
 
-__file1.cpp__
+[__file1.cpp__](https://github.com/cmsc240-f23/code/blob/main/lecture9/scope/file1.cpp)
 ```c++
 #include <iostream>
 using namespace std;
@@ -145,7 +153,7 @@ int main()
 }
 ```
 
-__file2.cpp__
+[__file2.cpp__](https://github.com/cmsc240-f23/code/blob/main/lecture9/scope/file2.cpp)
 ```c++
 #include <iostream>
 using namespace std;
@@ -198,7 +206,7 @@ Key aspects of class scope:
 
 In the example below, `year`, `month`, and `day` have class scope and are `private`, so they are only accessible within the `Date` class. On the other hand, the `addDay()` method is publicly accessible and can be accessed using an instance of `Date` from outside the class.
 
-__Date.h__
+[__Date.h__](https://github.com/cmsc240-f23/code/blob/main/lecture9/scope/Date.h)
 ```c++
 #ifndef DATE_H
 #define DATE_H
@@ -219,7 +227,7 @@ private:
 #endif
 ```
 
-__Date.cpp__
+[__Date.cpp__](https://github.com/cmsc240-f23/code/blob/main/lecture9/scope/Date.cpp)
 ```c++
 #include "Date.h"
 
@@ -272,6 +280,7 @@ Key aspects of namespace scope:
 
 In the example below, two separate namespaces are create and they are accessed using both the scope resolution operator `::` and directly after the `using` directive.
 
+[__namespace.cpp__](https://github.com/cmsc240-f23/code/blob/main/lecture9/scope/namespace.cpp)
 ```c++
 #include <iostream>
 #include <string>
@@ -345,6 +354,19 @@ References:
 - [https://en.cppreference.com/w/c/language/scope](https://en.cppreference.com/w/c/language/scope)
 
 
+### Exercise 1 <a class="anchor" id="exercise_1"></a>
+
+1. Create a new file called `TestScope.cpp`
+2. Add a `int main()` function.
+3. Create some new variables in the top of `main()`.
+4. Create a new __block scope__ in `main()` and add some variables.
+5. Add various `cout` statements to test the __block scope__.
+6. Add some variables in the __file scope__. 
+7. Create a new `namespace` and add some variables and functions.
+8. Test the __file scope__ and __namespace scope__ with various `cout` statements. 
+
+
+---
 ## Friends <a class="anchor" id="friends"></a>
 
 The `friend` keyword is used to grant specific external functions or classes access to the `private` and `protected` members of a class. Essentially, it allows you to break the encapsulation barrier in a controlled manner. 
@@ -365,7 +387,7 @@ Here's a breakdown of the `friend` keyword and its applications:
 
 In this example, the `averageGrade` function can access the private member grades of the `Student` class due to it being declared as a `friend`. This allows us to compute the average grade for the student without compromising the encapsulation of the `Student` class as a whole.
 
-__Student.h__
+[__Student.h__](https://github.com/cmsc240-f23/code/blob/main/lecture9/friend/Student.h)
 ```c++
 #ifndef STUDENT_H
 #define STUDENT_H
@@ -393,7 +415,7 @@ private:
 #endif
 ```
 
-__Student.cpp__
+[__Student.cpp__](https://github.com/cmsc240-f23/code/blob/main/lecture9/friend/Student.cpp)
 ```c++
 #include "Student.h"
 #include <iostream>
@@ -464,6 +486,18 @@ Use cases and considerations:
 References:
 - [https://en.cppreference.com/w/cpp/language/friend](https://en.cppreference.com/w/cpp/language/friend)
 
+
+### Exercise 2 <a class="anchor" id="exercise_2"></a>
+
+1. Create a new file called `TestFriends.cpp`
+2. Add a `int main()` function.
+3. Create a new class called Diary in the files `Diary.h` and `Diary.cpp`.
+4. Add a private `secret` `string` to the Diary class.
+5. Add a `friend` function to the Diary class called `readSecret()`.
+6. In the `TestFriends.cpp` define the function `readSecret()`.
+7. In the `main()` functino test the `readSecret()` function with various `cout` statements. 
+
+
 ## Destructors <a class="anchor" id="destructors"></a>
 
 A destructor is a special member function of a class that is executed whenever an object of that class goes out of scope or is explicitly destroyed. Its main purpose is to release resources and perform cleanup tasks for an object before it is removed from memory.
@@ -484,7 +518,7 @@ A destructor is a special member function of a class that is executed whenever a
 
 In this example the `StringArray` class's constructor allocates memory for the specified number of strings. The destructor ensures that the dynamically allocated memory for the strings is released when the object is destroyed. As the `StringArray` object goes out of scope at the end of the block in `main`, the destructor is automatically invoked, ensuring the memory is freed.
 
-__StringArray.h__
+[__StringArray.h__](https://github.com/cmsc240-f23/code/blob/main/lecture9/destructor/StringArray.h)
 ```c++
 #ifndef STRINGARRAY_H
 #define STRINGARRAY_H
@@ -512,7 +546,7 @@ private:
 ```
 
 
-__StringArray.cpp__
+[__StringArray.cpp__](https://github.com/cmsc240-f23/code/blob/main/lecture9/destructor/StringArray.cpp)
 ```c++
 #include <iostream>
 #include <string>
@@ -568,7 +602,7 @@ int main()
 
 In this example, the `Logger` class's constructor tries to open the specified file for logging. The destructor ensures that the log file is closed when the object is destroyed or goes out of scope. As the `Logger` object goes out of scope at the end of the block in `main`, the destructor is automatically invoked, ensuring the file is closed.
 
-__Logger.h__
+[__Logger.h__](https://github.com/cmsc240-f23/code/blob/main/lecture9/destructor/Logger.h)
 ```c++
 #ifndef LOGGER_H
 #define LOGGER_H
@@ -593,7 +627,7 @@ private:
 #endif
 ```
 
-__Logger.cpp__
+[__Logger.cpp__](https://github.com/cmsc240-f23/code/blob/main/lecture9/destructor/Logger.cpp)
 ```c++
 #include <iostream>
 #include "Logger.h"
@@ -639,6 +673,15 @@ int main() {
 }
 ```
 
+### Exercise 3 <a class="anchor" id="exercise_3"></a>
+
+1. Create a new class that add uses dynamic memory allocation to create a member variable on the heap with `new`. 
+2. Add a __destructor__ method to the class.
+3. Provide a `cout` statement in the __destructor__ method to prove that the destructor was called.
+4. Create a `TestDestructor.cpp` file.
+5. In the file in a `main()` function create a new instance of your class in a __block scope__ where you can test your destructor. 
+
+
 ## Composition <a class="anchor" id="composition"></a>
 
 In object-oriented programming (OOP), __composition__ is a design principle that describes a "_has-a_" relationship between objects. Composition allows you to build complex objects by combining simpler ones, essentially "composing" an object out of several other objects.
@@ -654,7 +697,7 @@ Here are some key points to understand about composition:
 
 In this example, the `Car` class is composed of the `Engine`, `Tire`, and `Radio` classes. We've effectively broken down the complex `Car` class into simpler, more manageable parts, each with its own responsibilities. The `Car` class doesn't inherit from Engine, Tire, or Radio; instead, it _has an_ Engine, four Tires, and a Radio.
 
-__Engine.h__
+[__Engine.h__](https://github.com/cmsc240-f23/code/blob/main/lecture9/composition/Engine.h)
 ```c++
 #ifndef ENGINE_H
 #define ENGINE_H
@@ -672,7 +715,7 @@ private:
 #endif
 ```
 
-__Radio.h__
+[__Radio.h__](https://github.com/cmsc240-f23/code/blob/main/lecture9/composition/Radio.h)
 ```c++
 #ifndef RADIO_H
 #define RADIO_H
@@ -690,7 +733,7 @@ private:
 #endif
 ```
 
-__Tire.h__
+[__Tire.h__](https://github.com/cmsc240-f23/code/blob/main/lecture9/composition/Tire.h)
 ```c++
 #ifndef TIRE_H
 #define TIRE_H
@@ -707,7 +750,7 @@ private:
 #endif
 ```
 
-__Car.h__
+[__Car.h__](https://github.com/cmsc240-f23/code/blob/main/lecture9/composition/Car.h)
 ```c++
 #include "Engine.h"
 #include "Radio.h"
@@ -728,7 +771,7 @@ private:
 };
 ```
 
-__Car.cpp__
+[__Car.cpp__](https://github.com/cmsc240-f23/code/blob/main/lecture9/composition/Car.cpp)
 ```c++
 #include "Car.h"
 
@@ -764,6 +807,9 @@ void Car::inflateTire(int index, int psi)
 
 To summarize, composition in OOP is about building complex objects from simpler ones. It provides flexibility, promotes code reuse, and is a powerful alternative or complement to inheritance.
 
+### Exercise 4 <a class="anchor" id="exercise_4"></a>
+
+1. Create a new class that will be composed of another class.  
 
 
 ## UML Diagrams  <a class="anchor" id="uml"></a>
@@ -815,4 +861,8 @@ __Relationships__ between classes can be depicted in UML class diagrams.
 
 ![UML Associations](../images/UMLRelationships.png "Date Class in UML")
 
+### Exercise 5 <a class="anchor" id="exercise_5"></a>
 
+1. Draw the UML diagram for your lab4 classes `Enigma` and `Rotor`.
+2. Take a picture of the drawing and add it to the repository.  
+ 
