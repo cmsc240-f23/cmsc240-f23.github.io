@@ -32,13 +32,13 @@ Design a command-line interface (CLI) Personal Diary Management System that has 
 Use the `fstream` header. Use `ifstream` to read from files and `ofstream` to write to files. Create appropriate error handling for file operations, such as when a file doesn't exist or there's an error during reading/writing. Keep the user interface simple, text-based, and intuitive.
 
 The code for this exercise is in the lab2 repository. Read the description below, and then enter your code in the `diary.cpp` file where it says: 
-```C++
+```c++
 // TODO: Write your code here.
 ```
 
 To **append** to a file. You can open the file with the `ofstream::app` option, like this:
 
-```C++
+```c++
     ofstream diaryEntryFileStream;
     diaryEntryFileStream.open(filename, ofstream::app);
 ```

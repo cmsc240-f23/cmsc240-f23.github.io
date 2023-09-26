@@ -33,7 +33,7 @@ Remember to:
 
 
 Example of the inlcude guard:
-```C++
+```c++
 #ifndef MY_CLASS_H
 #define MY_CLASS_H
 

@@ -13,7 +13,7 @@ permalink: module/2
 ### Palindrome Checking
 
 The code for this exercise is in the `exercise1` directory in the module2 repository. Read the description below, and then enter your code in the palindrome.cpp file where it says 
-```C++
+```c++
 // TODO: Write your code here.
 ```
 

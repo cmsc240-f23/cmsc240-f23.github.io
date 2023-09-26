@@ -11,4 +11,5 @@ title: Resources
 * [Standard C++ Library reference](https://cplusplus.com/reference/)
 * [C++ memory visualizer](https://pythontutor.com/cpp.html#mode=edit)
 * [Unix Tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/)
+* [Lecture Code Examples](https://github.com/cmsc240-f23/code)
 

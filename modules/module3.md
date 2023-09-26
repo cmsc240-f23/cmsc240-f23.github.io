@@ -13,7 +13,7 @@ permalink: module/3
 ### Letter Counting
 
 The code for this exercise is in the `exercise1` directory in the module3 repository. Read the description below, and then enter your code in the lettercount.cpp file where it says 
-```C++
+```c++
 // TODO: Write your code here.
 ```
 

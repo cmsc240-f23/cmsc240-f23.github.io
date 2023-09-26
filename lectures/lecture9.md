@@ -113,7 +113,7 @@ Here's a breakdown of file scope:
 In this example, `globalVar` has file scope in __file1.cpp__, but it's made available to __file2.cpp__ using the `extern` keyword. However, `fileScopedVar` is strictly limited to __file1.cpp__ due to the use of the `static` keyword, ensuring it won't conflict with any other `fileScopedVar` in other source files.
 
 __file1.cpp__
-```C++
+```c++
 #include <iostream>
 using namespace std;
 
@@ -146,7 +146,7 @@ int main()
 ```
 
 __file2.cpp__
-```C++
+```c++
 #include <iostream>
 using namespace std;
 
@@ -199,7 +199,7 @@ Key aspects of class scope:
 In the example below, `year`, `month`, and `day` have class scope and are `private`, so they are only accessible within the `Date` class. On the other hand, the `addDay()` method is publicly accessible and can be accessed using an instance of `Date` from outside the class.
 
 __Date.h__
-```C++
+```c++
 #ifndef DATE_H
 #define DATE_H
 
@@ -220,7 +220,7 @@ private:
 ```
 
 __Date.cpp__
-```C++
+```c++
 #include "Date.h"
 
 // Use the scope resolution operator :: to implement Date methods.
@@ -272,7 +272,7 @@ Key aspects of namespace scope:
 
 In the example below, two separate namespaces are create and they are accessed using both the scope resolution operator `::` and directly after the `using` directive.
 
-```C++
+```c++
 #include <iostream>
 #include <string>
 #include <vector>
@@ -366,7 +366,7 @@ Here's a breakdown of the `friend` keyword and its applications:
 In this example, the `averageGrade` function can access the private member grades of the `Student` class due to it being declared as a `friend`. This allows us to compute the average grade for the student without compromising the encapsulation of the `Student` class as a whole.
 
 __Student.h__
-```C++
+```c++
 #ifndef STUDENT_H
 #define STUDENT_H
 
@@ -394,7 +394,7 @@ private:
 ```
 
 __Student.cpp__
-```C++
+```c++
 #include "Student.h"
 #include <iostream>
 using namespace std;
@@ -428,7 +428,7 @@ float averageGrade(const Student& student)
 In this example, the `AcademicAdvisor` class can access the private member grades of the `Student` class due to it being declared as a `friend`. This allows us to share the grades for the student without compromising the encapsulation of the `Student` class as a whole.
 
 __Student.h__
-```C++
+```c++
 #ifndef STUDENT_H
 #define STUDENT_H
 
@@ -485,7 +485,7 @@ A destructor is a special member function of a class that is executed whenever a
 In this example the `StringArray` class's constructor allocates memory for the specified number of strings. The destructor ensures that the dynamically allocated memory for the strings is released when the object is destroyed. As the `StringArray` object goes out of scope at the end of the block in `main`, the destructor is automatically invoked, ensuring the memory is freed.
 
 __StringArray.h__
-```C++
+```c++
 #ifndef STRINGARRAY_H
 #define STRINGARRAY_H
 
@@ -513,7 +513,7 @@ private:
 
 
 __StringArray.cpp__
-```C++
+```c++
 #include <iostream>
 #include <string>
 #include "StringArray.h"
@@ -569,7 +569,7 @@ int main()
 In this example, the `Logger` class's constructor tries to open the specified file for logging. The destructor ensures that the log file is closed when the object is destroyed or goes out of scope. As the `Logger` object goes out of scope at the end of the block in `main`, the destructor is automatically invoked, ensuring the file is closed.
 
 __Logger.h__
-```C++
+```c++
 #ifndef LOGGER_H
 #define LOGGER_H
 
@@ -594,7 +594,7 @@ private:
 ```
 
 __Logger.cpp__
-```C++
+```c++
 #include <iostream>
 #include "Logger.h"
 using namespace std;
@@ -655,7 +655,7 @@ Here are some key points to understand about composition:
 In this example, the `Car` class is composed of the `Engine`, `Tire`, and `Radio` classes. We've effectively broken down the complex `Car` class into simpler, more manageable parts, each with its own responsibilities. The `Car` class doesn't inherit from Engine, Tire, or Radio; instead, it _has an_ Engine, four Tires, and a Radio.
 
 __Engine.h__
-```C++
+```c++
 #ifndef ENGINE_H
 #define ENGINE_H
 
@@ -673,7 +673,7 @@ private:
 ```
 
 __Radio.h__
-```C++
+```c++
 #ifndef RADIO_H
 #define RADIO_H
 
@@ -691,7 +691,7 @@ private:
 ```
 
 __Tire.h__
-```C++
+```c++
 #ifndef TIRE_H
 #define TIRE_H
 
@@ -708,7 +708,7 @@ private:
 ```
 
 __Car.h__
-```C++
+```c++
 #include "Engine.h"
 #include "Radio.h"
 #include "Tire.h"
@@ -729,7 +729,7 @@ private:
 ```
 
 __Car.cpp__
-```C++
+```c++
 #include "Car.h"
 
 Car::Car() : 
