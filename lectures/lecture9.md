@@ -5,6 +5,8 @@ permalink: /lecture/9
 
 # Lecture 9 
 
+[Live Code Link](https://prod.liveshare.vsengsaas.visualstudio.com/join?687BBF28B840414E2DB3760B6FB8457C5391)
+
 ### Objectives
 
 In this lecture, we will delve into key concepts of C++ and object-oriented design. We'll explore the nuances of different __scopes__, the role of __friends__ in access control, the importance of __destructors__ in resource management, the principles of __composition__ in system design, and the visualization power of __UML diagrams__. 
