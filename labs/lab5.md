@@ -22,10 +22,11 @@ Design and implement an inventory system to manage different types of wearable t
 
 ## Wearable Tech Inventory System
 
-#### Problem Statement:
+### Problem Statement:
 A tech store sells various wearable devices such as smartwatches, fitness trackers, and augmented reality (AR) glasses. These devices have some common attributes, but each also has unique features.
 
-1. Base Class - __WearableDevice__:
+#### Base Class - __WearableDevice__:
+
 - Data Members:
    - `brand`: a string representing the device's brand.
    - `price`: a float representing the device's price.
@@ -34,17 +35,22 @@ A tech store sells various wearable devices such as smartwatches, fitness tracke
    - `getInfo()`: Virtual function to print device details.
    - `sell(int units)`: Reduce the quantity by a specified number of units.
    - `restock(int units)`: Increase the quantity by a specified number of units.
-2. Derived Classes:
+
+
+#### Derived Classes
+
 - __Smartwatch__:
    - Additional Data Members:
       - `screenSize`: a float representing the display size in inches.
       - `hasGPS`: a boolean indicating if the watch has GPS.
       - Overrides `getInfo()` to include screen size and GPS information.
+
 - __FitnessTracker__:
    - Additional Data Members:
       - `heartRateMonitor`: a boolean indicating if it has a heart rate monitor.
       - `batteryLife`: an int representing battery life in hours.
       - Overrides `getInfo()` to include heart rate monitor and battery life.
+
 - __ARGlasses__:
    - Additional Data Members:
       - `fieldOfView`: an int representing the field of view in degrees.
@@ -88,9 +94,13 @@ New stock for Fitbit tracker: 20
 ```
 </div>
 
++
+
 <div class="requirement">
 When you finish writing and testing the code. In your README.md file write a brief description of how the testdevices.cpp file is using polymorphism. 
 </div>
+
++
 
 <div class="requirement">
 Draw a UML diagram of the completed inventory system.  Include a picture of your diagram in the repository. Put the name of your diagram file in the README.md so we know what to look for when grading.
