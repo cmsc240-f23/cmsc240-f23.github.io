@@ -18,7 +18,7 @@ permalink: lab/5
 
 
 ### Objective
-Design and implement an inventory system to manage different types of wearable tech products using inheritance and polymorphism.
+Design and implement an inventory system to manage different types of wearable tech products using __inheritance__ and __polymorphism__.
 
 ## Wearable Tech Inventory System
 
@@ -58,7 +58,7 @@ A tech store sells various wearable devices such as smartwatches, fitness tracke
       - Overrides `getInfo()` to include field of view and interactive surface details.
 
 <div class="requirement">
-Review the code in testdevices.cpp, WearableDevice.h, and WearableDevice.cpp.  Then write the code for the classes ARGlasses, FitnessTracker, and SmartWatch using the problem statement description above.  Your new classes should extend the WearableDevice class to inherit the functionality. 
+Review the code in testdevices.cpp, WearableDevice.h, and WearableDevice.cpp.  Then write the code for the classes ARGlasses, FitnessTracker, and SmartWatch using the problem statement description above.  Your new classes should extend the WearableDevice class to inherit the functionality. I have created the `.cpp` and `.h` files in the lab repository, and you should write your code where it says `// Write your code here...`
 
 When you finish and test your code by running the main function in the testdevices.cpp file.
 
@@ -85,7 +85,8 @@ Battery Life: 24 hours
 Brand: MagicLeap
 Price: $2295
 Quantity: 5
-Field of View: 50 degreesInteractive Surface: Yes
+Field of View: 50 degrees
+Interactive Surface: Yes
 -------------------------------
 Selling 3 Apple smartwatches...
 Remaining stock for Apple smartwatch: 7
