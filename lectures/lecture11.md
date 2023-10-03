@@ -82,7 +82,7 @@ int main()
 
     // ok, but dangerous: 7.5 truncated to 7
     // the compiler will warn you if you use
-    // the -Wconversion compiler flag
+    // the -Wconversion warning option
     int result4 = area(7.5, 10);	
     
     // ok, but this is a difficult case:
