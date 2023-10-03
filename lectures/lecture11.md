@@ -49,9 +49,16 @@ When we write programs, errors are natural and unavoidable; the question is, how
 * Logic errors
     - Detected by programmer (code runs, but produces incorrect output)
 
+__The C++ compilation and linking process__
+![CompilerLinker](../images/CompilerLInker.png "CompilerLinker")
+
+
 #### Checking Your Inputs
 
-Before trying to use an input value, check that it meets your expectations/requirements.
+One way to reduce errors is to validate your inputs.
+__Before__ trying to use an input value, check that it meets your expectations/requirements.
+
+For example:
 * Function arguments
 * Data from input (`istream`, `fstream`)
 
@@ -74,6 +81,8 @@ int main()
     int result3 = area(7, 10);		
 
     // ok, but dangerous: 7.5 truncated to 7
+    // the compiler will warn you if you use
+    // the -Wconversion compiler flag
     int result4 = area(7.5, 10);	
     
     // ok, but this is a difficult case:
@@ -95,7 +104,7 @@ int result = area(10, -7);
 Alternatives:
 * Just don’t do that
     - Hard to control all situations
-* The __caller__ should check
+* The __caller__ of the function can check
     - Get’s messy, and is hard to accomplish systematically
 
 __caller.cpp__
@@ -116,7 +125,7 @@ __caller.cpp__
     cout << "Area == " << result << endl;
 ```
 
-* The __function__ should check!
+* The __function__ should check
     - Example: Return an “error value” (not general, problematic)
 
 __function.cpp__
@@ -146,7 +155,7 @@ if (result < 0)
 ```
 For some functions there isn’t a “bad value” to return (e.g., `max()`)
 
-* The __function__ should check!
+* The __function__ should check
     - Example: Set an error status indicator (not general, problematic, don’t do this)
 
 __status.cpp__
@@ -218,7 +227,7 @@ catch (InvalidAreaArgumentsException &ex)
 }
 ```
 
-If you don't `catch` an exception it gets passed on along. 
+If you don't `catch` an exception it gets passed on along the call stack. 
 
 __exception2.cpp__
 ```c++
@@ -474,6 +483,7 @@ When you have written a program, it will have bugs.
 * How do you correct it?
 * This process is called __debugging__
 
+
 #### Debugging: Stepping Through a Program
 * Carefully follow the program through the specified sequence of steps
 * Pretend you’re the computer executing the program
@@ -482,12 +492,9 @@ When you have written a program, it will have bugs.
 ```c++
 cerr << "x == " << x << ", y == " << y << '\n';
 ```
-
-#### Debugging: Sanity Checks
-* When you write the program, insert some checks (“sanity checks”) that variables have “reasonable values”
+* When you write the program, insert some checks that variables have “reasonable values”
 * Design these checks so that some can be left in the program even after you believe it to be correct
 * It’s almost always better for a program to stop than to give wrong results
-
 
 
 #### Debugging: Beginnings and Ends
