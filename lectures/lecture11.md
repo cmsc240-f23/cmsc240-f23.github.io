@@ -14,7 +14,9 @@ permalink: /lecture/11
 ### Lecture Topics
 
 * [Errors](#errors)
+    - [Exercise 1](#exercise_1)
 * [Debugging](#debugging)
+    - [Exercise 2](#exercise_2)
 
 ## Errors <a class="anchor" id="errors"></a>
 
@@ -436,6 +438,28 @@ You can also check the cpp reference to see if functions you are calling throw e
 For example: the string to integer `stoi` function. See reference: [https://en.cppreference.com/w/cpp/string/basic_string/stol](https://en.cppreference.com/w/cpp/string/basic_string/stol)
 
 
+### Exercise 1 <a class="anchor" id="exercise_1"></a>
+
+Your task is to enhance the `factorial.cpp` program in the `Error` directory to handle potential errors gracefully. Here are the steps:
+
+* Check for Negative Inputs: The factorial function is only defined for non-negative integers. Modify the factorial function to check if the input number n is negative. If it is, throw an appropriate exception.
+
+* Handle Potential Overflow: The result of the factorial calculation can grow rapidly for even relatively small input values. Before each multiplication, check if the next multiplication would cause an overflow. If an overflow is detected, throw an appropriate exception. __Hint__: You might find std::numeric_limits<unsigned long long>::max() useful for this check.
+
+```c++
+if (result > std::numeric_limits<unsigned long long>::max() / i) 
+{
+    throw std::overflow_error("Result will overflow.");
+}
+```
+
+* Catch Exceptions in the main Function: In the main function, use a try-catch block to catch any exceptions thrown from the factorial function. Display an appropriate error message to the user if an exception is caught.
+
+* Test Your Program: Run your program and test it with various input values, including negative numbers and numbers that might cause an overflow, to ensure that your error handling works as expected.
+
+Remember: Proper error handling is essential for building robust and user-friendly software. Take this opportunity to practice identifying potential errors in code and handling them gracefully!
+
+___
 
 
 ## Debugging <a class="anchor" id="debugging"></a>
@@ -591,3 +615,12 @@ The debugger may ask you to select a compiler.  Select `g++`
 
 If you are debugging a project that has multiple C++ files (.cpp) then you may have to open the file `tasks.json` in the `.vscode` folder and modify the line that says `"${file}",` and change it to `"*.cpp",`
 ![TasksJSON](../images/tasksJSON.png "TasksJSON")
+
+
+### Exercise 2 <a class="anchor" id="exercise_2"></a>
+
+The program in the `Debug` folder simulates a basic library system where books can be added, borrowed, returned, and listed. There's a runtime error in this program that you will need to find using the VSCode debugger. 
+
+* Run and debug the code in the VSCode debugger. 
+* Step through the code until you find and fix the runtime error. 
+
