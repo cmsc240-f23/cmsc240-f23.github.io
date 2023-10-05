@@ -5,7 +5,7 @@ title: Schedule
 
 # Course Schedule of Topics and Due Dates
 
-* Course schedule is subject to change as the semseter progresses. 
+* Course schedule is subject to change as the semester progresses. 
 
 * All work should be submitted by **11:59PM** (in Richmond, VA) on the date due.
 

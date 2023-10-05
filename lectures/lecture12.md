@@ -18,8 +18,9 @@ Review the course topics and content that will be assessed on the midterm exam.
 * [Practice Questions](#practice)
 
 ## Exam Details <a class="anchor" id="exam"></a>
+* Paper exam
 * __8 multi-part questions__ (10 points each), these usually ask you to review code and answer questions about the code or draw something like a memory diagram
-* __1 coding question__ (20 points)
+* __1 coding question__ (20 points), must write code by hand, and draw UML diagram
 * Total of 100 points
 * 70 minutes to complete the exam
 
