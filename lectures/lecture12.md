@@ -326,3 +326,45 @@ Consider the C++ program __Media.cpp__ above.
 * Describe what is meant by the term `polymorphism` in the context of the provided code.
 
 
+### Implementing the constructor and methods of a class
+
+Consider the following C++ code in the file `Calculator.h`.
+
+
+```c++
+#ifndef CALCULATOR_H
+#define CALCULATOR_H
+
+class Calculator {
+public:
+    // Constructor: Initializes the calculator with a given value.
+    Calculator(double initialValue);
+
+    // Adds a value to the current result.
+    void add(double value);
+
+    // Subtracts a value from the current result.
+    void subtract(double value);
+
+    // Multiplies the current result by a given value.
+    void multiply(double value);
+
+    // Divides the current result by a given value. If the given value is zero, do nothing.
+    void divide(double value);
+
+    // Returns the current result.
+    double getResult() const;
+
+private:
+    double result;
+};
+
+#endif
+```
+
+Use the C++ code above to answer the following questions.
+
+* Write the C++ code that you would put into the file `Calculator.cpp` to implement the constructor and methods for the `Calculator` class found in `Calculator.h`. Do your best to write code that will compile. Remember to use `#include` as needed for external libraries or the `Calculator.h` file.
+
+* Draw a __UML__ diagram that represents the `Calculator` class. Remember to include the name of the class, the member variables (attributes) and their type, and member functions (methods) and their return and parameter types. You should include the access specifiers for each attribute and method. If an attribute or method is `public` indicate this with a `+` sign. If an attribute or method is `private` indicate this with a `-` sign. 
+
