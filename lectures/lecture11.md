@@ -1,5 +1,5 @@
 ---
-layout: toc
+layout: default
 permalink: /lecture/11
 ---
 
