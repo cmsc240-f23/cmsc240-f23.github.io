@@ -231,7 +231,7 @@ This example is a bit obvious, but it’s almost always not this clear why you h
 So we can turn our attention to __valgrind__, but before, we should compile our program with debugging symbols using `-g`.
 
 ```
-g++ -g memleak.c -o memleak
+g++ -g memleak.cpp -o memleak
 ```
 This gives __valgrind__ access to the exact line of code and variable names to give you more information about what is wrong. After compiling the program, you run it like so:
 
