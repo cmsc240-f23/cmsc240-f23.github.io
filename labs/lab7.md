@@ -79,3 +79,8 @@ Now let’s walk through some intentionally buggy example programs, demonstratin
 * So you see that memory is definitely being leaked somewhere. Determine where.
 * Complete questions 11 and 12 in the `README.md` file.
 * Now correct the program, recompile, and rerun using Valgrind to make sure that no memory leaks are present.
+
+
+### Acknowledgements
+
+This lab is based on the Valgrind lab created by Prof. Doug Szajda at UR and Prof. Will Jones at Clemson University. 
