@@ -74,7 +74,7 @@ Now let’s walk through some intentionally buggy example programs, demonstratin
 * Valgrind reports no errors. We’re no longer dealing with an egregious memory error, but a more subtle one known as a memory leak. A memory leak occurs when you allocate space dynamically, and then subsequently lose any pointer to that memory (e.g., if you reassign the pointer) without having freed the memory that was associated with that pointer.
 * Run the program again using Valgrind, but now turn on Valgrind’s full memory leak reporting:
     ```
-    $ valgrind --leak-check=full ./prog7
+    $ valgrind --leak-check=full ./prog6
     ```        
 * So you see that memory is definitely being leaked somewhere. Determine where.
 * Complete questions 11 and 12 in the `README.md` file.
