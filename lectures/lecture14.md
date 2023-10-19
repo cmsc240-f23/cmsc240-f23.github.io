@@ -94,4 +94,9 @@ int main()
 
 Complete lessons 1 through 14.
 
+### Resources <a class="anchor" id="resources"></a>
+
+Testing your regex: [regex101.com](https://regex101.com/)
+
+Reference page:  [regular-expressions](https://cheatography.com/davechild/cheat-sheets/regular-expressions/)
 
