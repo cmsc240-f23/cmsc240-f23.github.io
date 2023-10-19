@@ -12,8 +12,10 @@ Equip students with an understanding of regular expressions and their practical 
 
 * [Introduction to Regular Expressions](#introduction)
 * [C++ Regular Expression Library](#library)
+* [Raw Strings in C++](#raw)
 * [Example: Validating an Email Address](#email)
 * [Regular Expressions Tutorial](#tutorial)
+* [Resources](#resources)
 
 
 #### Introduction to Regular Expressions <a class="anchor" id="introduction"></a>
@@ -54,6 +56,49 @@ The `<regex>` header in C++:
     ```
 * The `pattern` is a `regex` object that will hold the regular expression you want to use for matching
 * You can customize the regular expression based on your specific needs
+
+### Raw Strings in C++ <a class="anchor" id="raw"></a>
+
+In C++, a raw string is a literal string that is defined using the `R"( ... )"` syntax. This syntax allows you to create string literals without the need for escaping special characters, making it especially useful for strings that contain backslashes and multiple lines of text.
+
+Here's the basic syntax of a raw string in C++:
+
+```c++
+R"( your raw string here )"
+```
+
+Here are some key features and benefits of raw strings in C++:
+
+* __No escape sequences__: In a raw string, escape sequences like `\"`, `\\`, and `\n` are treated as regular characters and not as escape sequences. This means you can include backslashes without escaping them, making it easier to represent file paths, regular expressions, and other text with backslashes.
+
+* __Multi-line support__: Raw strings can span multiple lines, making it convenient for defining long or multiline strings without the need for explicit line breaks or concatenation.
+
+Here's an example of a raw string in C++ that includes a backslash and multiple lines of text:
+
+```c++
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() 
+{
+    string rawString = R"(This is a raw string.
+It can contain backslashes \ and span multiple lines.
+No need to escape special characters.)";
+
+    cout << rawString << endl;
+
+    return 0;
+}
+```
+In this example, the `R"( ... )"` syntax is used to define a raw string, which can span multiple lines and includes backslashes without the need for escaping.
+
+Raw strings can be especially handy when working with __regular expressions__, file paths, SQL queries, or any text that includes special characters or spans multiple lines. They improve code readability by eliminating the clutter of escape sequences and line concatenations.
+
+Like this:
+```c++
+regex pattern(R"(your_regular_expression_here)");
+```
 
 ### Example: Validating an Email Address <a class="anchor" id="email"></a>
 
