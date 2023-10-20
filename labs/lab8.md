@@ -21,7 +21,8 @@ Understand the basics of regular expressions and how to use them. Through practi
 There are three functions that are a part of the `<regex>` library. [https://en.cppreference.com/w/cpp/regex](https://en.cppreference.com/w/cpp/regex)
 
 * `regex_match`
-    - Attempts to match a regular expression to an entire character sequence 
+    - Attempts to match a regular expression to an entire character sequence
+
 ```c++
     string email = "dbalash@richmond.edu";
 
@@ -33,8 +34,10 @@ There are three functions that are a part of the `<regex>` library. [https://en.
         cout << "Valid email address!" << endl;
     } 
 ```
+
 * `regex_search`
     -  Attempts to match a regular expression to any part of a character sequence
+
 ```c++
 string stringToSearch = "Hello, World!";
 smatch stringMatches;
@@ -45,8 +48,10 @@ if (regex_search(stringToSearch, stringMatches, regexPattern))
     cout << "First word: " << stringMatches[0] << endl;
 }
 ```
+
 * `regex_replace`
     - Replaces occurrences of a regular expression with formatted replacement text 
+
 ```c++
 string stringToModify = "cats are great, I love cats!";
 regex regexPattern(R"(cats)");
