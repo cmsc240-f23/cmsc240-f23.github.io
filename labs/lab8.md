@@ -132,6 +132,8 @@ __Hint__: You can _pipe_ the output of your grep command to other unix commands 
 grep -E -o 'YOUR REGEX HERE' webserver.log | sort | uniq
 ```
 
+__NOTE__: the `\d` does not work with grep, use `[0-9]` instead.
+
 ## Part 3: Searching for Failed Authentication Attempts in an OpenSSH Log
 
 Imagine you're managing a server and you're monitoring the SSH log for security. You have a log file named `auth.log` with entries like:
