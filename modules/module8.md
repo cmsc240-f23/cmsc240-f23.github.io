@@ -3,10 +3,10 @@ layout: default
 permalink: module/8
 ---
 
-# Module 8: Build Automation Tools
+# Module 8: Build Automation with Make
 
-* First read this page then start coding module with the GitHub classroom link below.
-* Github Classroom Link: []()
+* First read this page then start the module with the GitHub classroom link below.
+* Github Classroom Link: [https://classroom.github.com/a/vB9vg5Lp](https://classroom.github.com/a/vB9vg5Lp)
 
 ## Compilation
 
@@ -109,8 +109,14 @@ Go to the `exercise2` directory of your module 8 GitHub repository. Put your ans
 1. Review the `Makefile` in the `exercise2` directory.
 2.  Run the `make` command. Copy and paste the result of issuing the make command.
 3.  Run the `make` command again. Copy and paste the result of issuing the make command.
-4. Run the commands: `touch functions.h ; make` Copy and paste the result of issuing both commands.
-5. What did the touch command do in this case (man touch)?
+4. Run the commands: 
+```
+$ touch functions.h
+$ make
+``` 
+Copy and paste the result of issuing both commands.
+
+5. What did the `touch` command do in this case (`man touch`)?
 
 ## Exercise 3
 
@@ -134,21 +140,51 @@ hello.o: hello.cpp functions.h
 3. Run `make main.o`. Copy and paste the result of issuing this command.
 4. Run 
 ```
-$ make -f Makefile2 factorial.o 
+$ make factorial.o 
 $ ls -al
 ```  
 Is there an executable present for running main?
 
-5. Create another rule as the last rule in Makefile that will create the target `hello` based on the dependencies `hello.o`, `main.o`, and `factorial.o`.  Run 
+5. Create another rule as the last rule in Makefile that will create the target `hello` based on the dependencies `hello.o`, `main.o`, and `factorial.o`. Hint: `g++ hello.o main.o factorial.o -o hello`
+6. Run: 
 ```
 $ make hello
 $ ./hello
 ``` 
 Copy and paste the output from issuing both commands.
 
-6. Copy and paste the output from issuing the commands.
-7. Explain the previous output. 
-8. Copy and paste the output from issuing the commands.
-9. Explain the previous output. 
-10. Copy and paste the output from issuing the commands.
-11. Explain the previous output.
+7. Run:
+```
+$ rm *.o hello
+$ make
+$ ./hello
+```
+Copy and paste the output from issuing the commands.
+
+8. Explain the previous output. 
+9. Make the necessary modification to have `hello` be the default target created by `make`.
+10. Run:
+```
+$ touch functions.h
+$ make
+```
+Copy and paste the output from issuing the commands.
+
+11. Explain the previous output. 
+12. Run:
+```
+$ touch hello.cpp
+$ make
+```
+Copy and paste the output from issuing the commands.
+
+13. Explain the previous output.
+14. Run: `rm *.o hello`
+15. Could we get make to handle cleanup work like this for us? Yes — the target does not have to be a file-to-be-created. In the examples we have seen thus far, the command has been a compile command which naturally creates a file. We can issue other command-prompt commands that do not result in a created file. The typical way to have make handle the cleanup is to create a new rule at the end of your makefile. The rule should have a target called `clean` (no dependencies) with the command `/bin/rm -f *.o hello`. Add this rule to the end `Makefile`.
+16. Run: 
+```
+$ make
+$ make clean
+```
+17. Copy and paste the output from issuing the commands.
+18. Should the `clean` target be first in the makefile? Explain.
