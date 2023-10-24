@@ -28,11 +28,11 @@ Next create a `.cpp` code file where you will implement the member functions tha
 Remember to:
 - Include the header file for your class.
 - Use the `::` scope resolution operator to access your class.
-- Implement the consturctor, if one was needed.
+- Implement the constructor, if one was needed.
 - Implement all of the methods of your class.
 
 
-Example of the inlcude guard:
+Example of the include guard:
 ```c++
 #ifndef MY_CLASS_H
 #define MY_CLASS_H
