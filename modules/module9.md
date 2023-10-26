@@ -6,16 +6,25 @@ permalink: module/9
 # Module 9: Templates in C++
 
 * First read this page then start the module with the GitHub classroom link below.
-* Github Classroom Link: []()
+* Github Classroom Link: [https://classroom.github.com/a/-rmLD01D](https://classroom.github.com/a/-rmLD01D)
 
 
-## Exercise 1
+## Exercise 1: Template Function
+In this exercise, you will create a function template in C++ that calculates the sum of elements in an array. The function should be able to handle arrays of any data type that supports addition and initialization to zero.
+
+1. __Setup the environment__: Review the code in the exercise1 directory in the module9 GitHub repository. 
+2. __Create a function template__: In the file `exercise1.cpp` modify the `arraySum` function to be a template function that can sum generic types instead of only `int`.
+3. __Update the main function__: Modify the main function to have multiple calls to the `arraySum` function with different types, such as `double`, `float`, `long`.
+4. __Compile and test__: Compile and run `exercise1.cpp` to test your new template function.
+
+
+## Exercise 2: Template Class
 
 In this exercise, you will create a generic stack data structure using C++ __templates__. The stack should be able to store elements of __any__ data type and provide basic stack operations.
 
 Steps:
 
-1. __Setting Up the Environment__: Add your code to the exercise1 directory in the module9 GitHub repository. 
+1. __Setting Up the Environment__: Add your code to the exercise2 directory in the module9 GitHub repository. 
 2. __Creating the Stack Header File__: Create a new file named `StackTemplate.h.` Define a class template named `StackTemplate`. Inside the class, declare a `private` member variable that will hold the stack elements. Use `std::vector<T>` as the underlying container. Use the following template declaration:
     ```c++
     template <typename T>
@@ -66,4 +75,5 @@ Steps:
     * all: This target will build your entire project.
     * clean: This target will clean up the object files and the executable.
     * main.o: Target for compiling the main.cpp file.
-    * main: Target for compiling the main.cpp and StackTemplate.cpp.
+    * main: Target for compiling the main.cpp and `StackTemplate.cpp`.
+11. __Test your program__: Use your make file to compile.  Then run your program to test. 
