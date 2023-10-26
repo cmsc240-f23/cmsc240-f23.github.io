@@ -41,7 +41,7 @@ Steps:
     * `void push(T element);` - To add an element to the top of the stack.
     * `T pop();` - To remove and return the top element of the stack. Throw `out_of_range` exception if stack is empty. 
     * `T top();` - To get the top element without removing it. Throw `out_of_range` exception if stack is empty.
-4. __Implementing the Stack Methods__: Create a new file named StackTemplate.tpp. Implement each method you declared in the StackTemplate class. For example:
+4. __Implementing the Stack Methods__: Create a new file named StackTemplate.cpp. Implement each method you declared in the StackTemplate class. For example:
     ```c++
     template <typename T>
     bool StackTemplate<T>::isEmpty()  
