@@ -74,6 +74,6 @@ Steps:
 10. __Create a Makefile__: Define your targets and dependencies:
     * all: This target will build your entire project.
     * clean: This target will clean up the object files and the executable.
-    * main.o: Target for compiling the main.cpp file.
-    * main: Target for compiling the main.cpp and `StackTemplate.cpp`.
+    * main.o: Target for compiling the `main.cpp` file.
+    * main: Target for compiling the `main.cpp` and `StackTemplate.cpp`.
 11. __Test your program__: Use your make file to compile.  Then run your program to test. 
