@@ -108,8 +108,8 @@ All books listed here are available in electronic form **for free** on the [O'Re
 - Midterm exam 
   - Tuesday, October 10th
 - Final exam 
-  - Section 1: Monday, December 11th 2:00PM - 5:00PM 
-  - Section 2: Thursday, December 14th 2:00PM - 5:00PM
+  - Section 1: Thursday, December 14th 2:00PM - 5:00PM
+  - Section 2: Monday, December 11th 2:00PM - 5:00PM 
 
 
 ### Grading Breakdown
