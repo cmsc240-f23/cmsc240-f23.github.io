@@ -121,7 +121,7 @@ All books listed here are available in electronic form **for free** on the [O'Re
 
 ### Programming Expectations
 
-The course will be **programming-intensive**. You will be submitting one lab assignment, on average, per week, and a programming project will be assigned mid-semester. You should also be completing your in-class module exercies. 
+The course will be **programming-intensive**. You will be submitting one lab assignment, on average, per week, and a programming project will be assigned mid-semester. You should also be completing your in-class module exercises. 
 
 You are expected to submit well-written code:
 
@@ -147,7 +147,7 @@ In cases of personal illnesses, emergencies, or documented accommodations, assig
 Regular attendance for the entire class time is expected. Students should not miss more than 4 total sessions (including lecture and lab). Students who have to quarantine due to COVID or miss class for other legitimate reasons will not be penalized for their absence during those classes.
    
 
-### Self-Guided Module exercies
+### Self-Guided Module exercises
 
 Each lecture will be accompanied by a *self-guided worksheet*. This module exercise is to complement in-class content and to assist you in reviewing the material. In-class module exercises are due one week from the lecture in which they are assigned. 
 
@@ -156,12 +156,12 @@ Each lecture will be accompanied by a *self-guided worksheet*. This module exerc
 
 Labs are short-to-medium size programming assignments that are designed to reinforce lecture. This course has a formal laboratory component. You are expected to attend each lab for the entire 50 minute lab period. Some labs may require that students work in teams of two or more. Almost all labs will require more than the 50 minute alloted time to complete, so please expect to have to spend extra time on the labs.
 
-Labs are due at 5:00 pm on the night prior to the next lab (for this course, that means 5:00 pm Thursday evening), unless I explictly provide a different deadline. Note that some labs are more like programming projects, so might require two weeks to complete. In that case I will explicitly inform you of this. 
+Labs are due at 11:59 pm on the night prior to the next lab (for this course, that means 11:59 pm Thursday evening), unless I explicitly provide a different deadline. Note that some labs are more like programming projects, so might require two weeks to complete. In that case I will explicitly inform you of this. 
 
  
 ### Programming Project
 
-The programming project will be written in the C++ language, and must compile without warnings using the GNU g++ compiler and the -Wall flag on the department's linux machines (cs01 - cs06 and turing2). 
+The programming project will be written in the C++ language, and must compile without warnings using the GNU g++ compiler and the -Wall flag on the department's Linux machines (cs01 - cs06 and turing2). 
 
 
 ### Exams
@@ -173,7 +173,7 @@ There are two comprehensive exams in this class. Each exam is worth 15% of your 
 
 We will use two primary forms of communication in this class: email announcements and Ed. You are responsible for remaining up to date on any information sent by email or posted to Ed. This may include clarifications to assignments, updates on grading rubrics, and changes in office hours. 
 
-For all general course information, questions, and clarifications, you should preference to using Ed. An instructor, lab assitant, or even your fellow classmate can then answer a question. You can even post your questions anonymously. 
+For all general course information, questions, and clarifications, you should preference to using Ed. An instructor, lab assistant, or even your fellow classmate can then answer a question. You can even post your questions anonymously. 
 
 If you have personal, individual issues you'd like addressed, you should send those by email to me. However, all course related topics should be directed to Ed.
 
