@@ -34,7 +34,8 @@ This project presents an opportunity for teams to creatively explore web service
 * Each team will brainstorm and propose an idea for a web service. 
 * The idea shall be feasible and provide clear value to potential users.
 * The idea shall be complex enough to have a __minimum of four resources__.
-
+* For inspiration, here is a big list of public free APIs that do not require API keys:
+[https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/](https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/)
 
 #### Deliverable: 
 * A brief proposal document outlining the web service concept.
