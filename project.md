@@ -11,6 +11,11 @@ This project aims to provide hands-on experience in designing and implementing a
 
 This project presents an opportunity for teams to creatively explore web service development, leveraging the power of C++ and Crow, while also emphasizing the importance of design, testing, and documentation in software development.
 
+## Instructions
+
+1. Complete all of the work in a Group GitHub repository: [https://classroom.github.com/a/klIieHru](https://classroom.github.com/a/klIieHru)
+2. __Name your group using a combination of the first names of the group members.__ 
+
 ## Team Formation
 
 #### Team Size: 
@@ -74,9 +79,9 @@ This project presents an opportunity for teams to creatively explore web service
 
 
 #### Deliverable:
-* A __functioning__ web service.
-* All the __code needed to run__ your web service should be included in the project GitHub repository.
-* A __Makefile__ that will build each component of the web service, and the executable file.
+* A functioning web service.
+* All the code needed to run your web service should be included in the project GitHub repository.
+* A Makefile that will build each component of the web service, and the executable file.
 
 ## Part 4: Unit Testing
 
@@ -87,6 +92,6 @@ This project presents an opportunity for teams to creatively explore web service
 
 #### Deliverable:
 * A comprehensive unit testing suite ensuring the reliability of the web service.
-* All the __code needed to run__ your unit tests should be included in the project GitHub repository.
+* All the code needed to run your unit tests should be included in the project GitHub repository.
 
 
