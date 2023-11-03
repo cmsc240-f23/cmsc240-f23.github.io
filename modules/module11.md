@@ -70,7 +70,7 @@ file << jsonWriteValue.dump();
 
 
 ## Exercise 3: 
-1. Add a new function to `pizzaAPI.cpp` that will save the PizzaSize map to a file. 
+1. Add a new function to `pizzaAPI.cpp` that will load the PizzaSize map from a file. 
     ```c++
     map<string, PizzaSize> loadFromFile(string filename)
     ```
