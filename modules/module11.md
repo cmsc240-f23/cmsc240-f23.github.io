@@ -50,21 +50,40 @@ permalink: module/11
 
 __Hint__:
 ```c++
-// Create a new JSON write value use to write to the file.
-json::wvalue jsonWriteValue;
-
-// For each object in the map, convert the object to JSON and add to the write value.
-int index = 0;
-for (pair<string, PizzaSize> keyValuePair : data)
+json::wvalue convertPizzaSizeToJson(PizzaSize pizzaSize) 
 {
-    // first: gives you access to the first item in the pair.
-    // second: gives you access to the second item in the pair.
-    jsonWriteValue[index] = keyValuePair.second.convertToJson();
-    index++;
+    json::wvalue writeValueJson;
+    writeValueJson["id"] = pizzaSize.getId();
+    writeValueJson["size"] = pizzaSize.getSize();
+    return writeValueJson;
 }
 
-// Write the JSON to the file.
-file << jsonWriteValue.dump();
+
+void saveToFile(map<string, PizzaSize> data, string filename)  
+{
+    // Open the file for writing
+    ofstream file(filename);
+
+    if (file.is_open()) 
+    {
+        // Create a new JSON write value use to write to the file.
+        json::wvalue jsonWriteValue;
+        
+        // For each object in the map, convert the object to JSON and add to the write value.
+        int index = 0;
+        for (pair<string, PizzaSize> keyValuePair : data)
+        {
+            // first: gives you access to the first item in the pair.
+            // second: gives you access to the second item in the pair.
+            jsonWriteValue[index] = convertPizzaSizeToJson(keyValuePair.second);
+            index++;
+        }
+
+        // Write the JSON to the file.
+        file << jsonWriteValue.dump();
+        file.close();
+    }
+}
 ```
 
 
@@ -81,24 +100,38 @@ file << jsonWriteValue.dump();
 
 __Hint:__
 ```c++
-// Create a stream for reading in the file.
-ostringstream stringStreamJson;
-
-// Read the entire JSON string.
-stringStreamJson << file.rdbuf();
-
-// Load the string into a JSON read value object.
-json::rvalue jsonReadValue = json::load(stringStreamJson.str());
-
-// Close the file.
-file.close();
-
-// For each item in the JSON convert it to an object, 
-// and add it to the data map.
-for (json::rvalue item : jsonReadValue) 
+map<string, PizzaSize> loadFromFile(string filename) 
 {
-    PizzaSize pizzaSize{item["id"], item["size"]};
-    data[PizzaSize.getId()] = PizzaSize;
+    map<string, PizzaSize> data;
+    
+    // Open the file for reading.
+    ifstream file(filename);
+
+    // If the file is open. 
+    if (file.is_open()) 
+    {      
+        // Create a stream for reading in the file.
+        ostringstream stringStreamJson;
+
+        // Read the entire JSON string.
+        stringStreamJson << file.rdbuf();
+
+        // Load the string into a JSON read value object.
+        json::rvalue jsonReadValue = json::load(stringStreamJson.str());
+
+        // Close the file.
+        file.close();
+
+        // For each item in the JSON convert it to an object, 
+        // and add it to the data map.
+        for (json::rvalue item : jsonReadValue) 
+        {
+            PizzaSize pizzaSize{item["id"].s(), item["size"].s()};
+            data[pizzaSize.getId()] = pizzaSize;
+        }
+    }
+    
+    return data;
 }
 ```
 
