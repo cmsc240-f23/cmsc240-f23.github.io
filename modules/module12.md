@@ -6,7 +6,7 @@ permalink: module/12
 # Module 12: C++ Smart Pointers
 
 * First read this page then start the module with the GitHub classroom link below.
-* Github Classroom Link: []()
+* Github Classroom Link: [https://classroom.github.com/a/BXYsXD9G](https://classroom.github.com/a/BXYsXD9G)
 
 
 ## Exercise 1: Basic Usage of `unique_ptr`
@@ -14,7 +14,7 @@ permalink: module/12
 Understand the basic mechanics of `unique_ptr` and how it manages the lifecycle of a heap-allocated object.
 
 
- 1. In the `exercise1` folder of your GitHub repository edit the file `main.cpp` and create a `unique_ptr` to manage a dynamically allocated object of a simple class `Box`. The Box class has one integer member variable and a constructor that sets it.
+1. In the `exercise1` folder of your GitHub repository edit the file `main.cpp` and create a `unique_ptr` to manage a dynamically allocated object of a simple class `Box`. The Box class has one integer member variable and a constructor that sets it.
 2. Implement the `printBoxValue` a function that takes a `unique_ptr<Box>` by value and prints the value of the `Box`'s member variable.
 3. Demonstrate what happens when you try to copy the `unique_ptr`.
 4. In the `README.md` file, explain why it is not allowed. 
