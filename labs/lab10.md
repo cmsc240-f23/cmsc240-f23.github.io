@@ -3,7 +3,7 @@ layout: default
 permalink: lab/10
 ---
 
-# Lab 10: 
+# Lab 10: git & GitHub
 
 ## Instructions
 * First read this page then start working on lab with the GitHub classroom link below.
@@ -12,7 +12,7 @@ permalink: lab/10
 
 * Use the code in the GitHub repository for this lab.
 
-* Github Classroom Link: []()
+* Github Classroom Link: [https://classroom.github.com/a/e4ZtT1o_](https://classroom.github.com/a/e4ZtT1o_)
 
 ## Overview
 In this lab, you will work in groups of three (there may be one or two group of four), experimenting in the use of git (for your local version of a repository) and GitHub (where, via git, the three of you will combine your work). You will ultimately implement a working solution to a collection of C++ classes/programs that includes:
@@ -33,7 +33,14 @@ __Your__ assigned class will be `CharacterVector`, `DoubleVector`, or `IntegerVe
 
 ## Setup
 
-* Install the GitGraph VSCode extension. 
+* Install the GitGraph VSCode extension. Use this to visualize your branches. 
+
+![GitGraph](../images/GitGraph.png "Git Graph")
+
+* In the steps below each time you do a `git commit`, `git merge`, or `git pull`, review the changes using the visualization of the Git graph.  
+
+
+![GitGraphLaunch](../images/GitGraphLaunch.png "Git Graph Launch")
 
 
 ## Steps
@@ -130,7 +137,9 @@ __Merge__ your branch into the (current) main branch.
 git merge YOUR_NAME_feature_branch  
 ```
 
-Show the main branch version of your .cpp file after your feature branch was merged into the main branch.
+* Use GitGraph to view the resulting changes to the repository graph. 
+
+View the main branch version of your `.cpp` file after your feature branch was merged into the main branch.
 ```shell
 cat YOUR_CLASS.cpp
 ```     
@@ -176,6 +185,30 @@ $ git status
 $ git push origin main
 $ git remote show origin
 ```
+
+* Use GitGraph to view the resulting changes to the repository graph. 
+
+## Using Git in VSCode
+* We will make another change on a feature branch, but this time use the Git interface in VSCode. 
+
+* Create a new feature branch: YOUR_NAME_feature_branch_vscode
+
+* To create a branch use:
+![VSCodeGitBranch](../images/VSCodeGitBranch.png "VSCode Git Branch")
+
+* Checkout your new branch.
+
+* To checkout a branch use:
+![VSCode Git Checkout to](../images/VSCodeGitCheckTo.png "VSCode Git Checkout to")
+
+* Do work in your assigned `.cpp` file. This can be simply improving the code comments if you've finished the functionality. 
+
+* Use VSCode to pull from origin main.
+![VSCode Git Pull from](../images/VSCodePullFrom.png "VSCode Git Pull from")
+
+* Use VSCode to __stage__, __commit__, __merge__, and __push__ to GitHub. 
+
+* Use GitGraph to view the resulting changes to the repository graph. 
 
 ## Handling Pull Conflicts
 
