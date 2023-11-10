@@ -217,7 +217,19 @@ When doing a fetch-and-merge from the remote repository (via `git pull origin ma
 Merge made by the 'recursive' strategy.
 ```
 
-In some cases, however, git’s recursive strategy will not work, and conflicts will result that you must handle explicitly. (One such situation is a conflict of a teammate's "good" code in their assigned class versus your "stub" code in their assigned class.) When git cannot automatically merge, you will see a message similar to the following:
+In some cases, however, git’s recursive strategy will not work, and conflicts will result that you must handle explicitly. (One such situation is a conflict of a teammate's "good" code in their assigned class versus your "stub" code in their assigned class.) 
+
+If you get an error start by typing the following:
+```shell
+$ git config pull.rebase false
+```
+
+Then attempt to pull again.
+```shell
+$ git pull origin main
+```
+
+When git cannot automatically merge, you will see a message similar to the following:
 
 ```shell
 $ git pull origin main
