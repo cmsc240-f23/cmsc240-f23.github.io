@@ -39,21 +39,23 @@ permalink: module/14
     ```
 2. Also add the `static-analysis` target as a dependency to the `all` target.
 3. Run the `Makefile` to view the static analysis results.
-4. Fix any issues found during static analysis.
+4. Fix any issues in the code found during static analysis.
 
 
 ## Exercise 3 - Unit Testing with doctest:
 
 1. Review the test case provided in the `BankAccountTests.cpp` file.
 2. Add any tests needed to get full code coverage of the `BankAccount.cpp` file.
-3. Add a run unit tests target to the `Makefile`.
-```
-BankAccountTest: BankAccountTest.cpp BankAccount.cpp BankAccount.h
-    g++ BankAccountTest.cpp BankAccount.o -o BankAccountTest
-
-run-unit-tests: BankAccountTest
-    ./BankAccountTest
-```
-4. Also add the `run-unit-tests` target as a dependency to the `all` target.
-5. Run the `Makefile` to run the unit tests and review the results.
-6. Fix any issues with the code or the tests if needed.
+3. Add a target to the `Makefile` that will build the unit test program.
+    ```
+    BankAccountTest: BankAccountTest.cpp BankAccount.cpp BankAccount.h
+        g++ BankAccountTest.cpp BankAccount.o -o BankAccountTest
+    ```
+4. Add a run unit tests target to the `Makefile`.
+    ```
+    run-unit-tests: BankAccountTest
+        ./BankAccountTest
+    ```
+5. Also add the `run-unit-tests` target as a dependency to the `all` target.
+6. Run the `Makefile` to run the unit tests and review the results.
+7. Fix any issues with the code or the tests if needed.
