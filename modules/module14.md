@@ -14,6 +14,11 @@ permalink: module/14
 * [cppcheck List of Checks](https://sourceforge.net/p/cppcheck/wiki/ListOfChecks/)
 * [doctest tutorial](https://github.com/doctest/doctest/blob/ae7a13539fb71f270b87eb2e874fbac80bc8dda2/doc/markdown/tutorial.md)
 
+## Setup
+In order to view the generated documentation in HTML, install the __Live Preview__ webpage previewer for VS Code extension.
+
+![LivePreview](../images/LivePreview.png "Live Preview")
+
 
 ## Exercise 1 - Document generation with doxygen: 
 
