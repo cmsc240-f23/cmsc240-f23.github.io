@@ -10,6 +10,12 @@ title: Resources
 * [C++ Reference](https://en.cppreference.com/w/)
 * [Standard C++ Library reference](https://cplusplus.com/reference/)
 * [C++ memory visualizer](https://pythontutor.com/cpp.html#mode=edit)
+* [Compiler Explorer](https://godbolt.org/)
+* [DrawIO for drawing UML diagrams](https://app.diagrams.net/)
+* [Lucidchart for drawing UML diagrams](https://www.lucidchart.com/pages/)
 * [Unix Tutorial](http://www.ee.surrey.ac.uk/Teaching/Unix/)
+* [Regex101](https://regex101.com/)
+* [Guide to Markdown](https://www.markdownguide.org/cheat-sheet/) 
 * [Lecture Code Examples](https://github.com/cmsc240-f23/code)
+* [Project Example: Music Store](https://github.com/cmsc240-f23/MusicStore)
 
