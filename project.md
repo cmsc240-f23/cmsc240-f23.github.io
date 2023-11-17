@@ -96,3 +96,76 @@ This project presents an opportunity for teams to creatively explore web service
 * All the code needed to run your unit tests should be included in the project GitHub repository.
 
 
+## Project Grading Rubric
+
+### Part 1: Team Creation and Proposal (Total: 5 points)
+
+#### Clarity and Quality of Proposal (5 points)
+- [ ] 0 points: Idea is not feasible, lacks clarity, or no clear value to users.
+- [ ] 1-2 points: Idea is somewhat feasible or provides unclear value to users.
+- [ ] 3 points: Idea is feasible and provides some value to users.
+- [ ] 4 points: Idea is feasible with a clear value proposition and meets minimum complexity requirements.
+- [ ] 5 points: Idea is innovative, feasible, complex enough, and offers a compelling value to potential users.
+
+### Part 2: Design Document Creation (Total: 25 points)
+
+#### Comprehensiveness of Design Document (10 points)
+- [ ] 0-3 points: Missing significant sections or details.
+- [ ] 4-6 points: Contains all sections with minor omissions or lack of clarity.
+- [ ] 7-8 points: Most sections are complete and detailed.
+- [ ] 9-10 points: All sections are complete and detailed.
+
+#### Use Case Descriptions (5 points)
+- [ ] 0-1 points: Use cases are not clear or are missing.
+- [ ] 2-3 points: Use cases are present but lack detail.
+- [ ] 4-5 points: Use cases are detailed and provide clear insight into user interactions.
+
+#### List of Endpoints (5 points)
+- [ ] 0-1 points: Missing endpoints or critical details (HTTP methods, parameters, etc.).
+- [ ] 2-3 points: Endpoints are listed with some details missing or unclear.
+- [ ] 4-5 points: Endpoints are clearly listed with detailed request/response and error codes.
+
+#### UML Diagram Quality (5 points)
+- [ ] 0-1 points: UML Diagram is missing, incomplete, or incorrect.
+- [ ] 2-3 points: UML Diagram is present with inaccuracies or lacks clarity.
+- [ ] 4-5 points: UML Diagram is accurate, detailed, and clearly represents the system.
+
+### Part 3: Implementation (Total: 50 points)
+
+#### Implementation of Classes and Relationships (15 points)
+- [ ] 0-4 points: Fewer than four classes or missing key relationships (composition, inheritance).
+- [ ] 5-9 points: Meets minimum class count with basic implementation of composition and inheritance.
+- [ ] 10-12 points: Four or more classes with correctly implemented composition, inheritance.
+- [ ] 13-15 points: More than four classes with well-implemented composition, inheritance, and templates.
+
+#### Data Persistence (10 points)
+- [ ] 0-3 points: Does not save/read resources to/from a file, or implementation is flawed.
+- [ ] 4-6 points: Saves/reads resources with minor issues.
+- [ ] 7-8 points: Saves and reads resources with minor improvements needed.
+- [ ] 9-10 points: Flawlessly saves and reads resources to and from a file.
+
+#### Makefile and Build Process (10 points)
+- [ ] 0-3 points: Makefile is missing, incomplete, or does not work.
+- [ ] 4-6 points: Makefile is present with minor issues in the build process.
+- [ ] 7-8 points: Makefile is functional with room for optimization.
+- [ ] 9-10 points: Makefile is fully functional with all, clean, executable, and individual targets.
+
+#### Functionality of Web Service (15 points)
+- [ ] 0-4 points: Web service is non-functional or severely flawed.
+- [ ] 5-9 points: Web service is functional with some issues.
+- [ ] 10-12 points: Web service is functional and meets most design specifications.
+- [ ] 13-15 points: Web service is fully functional, meets all design specifications, and demonstrates advanced features or exceptional quality.
+
+### Part 4: Unit Testing (Total: 20 points)
+
+#### Coverage and Depth of Testing (10 points)
+- [ ] 0-3 points: Tests are missing or cover only a small portion of functionalities.
+- [ ] 4-6 points: Tests cover a substantial portion of functionalities but lack depth.
+- [ ] 7-8 points: Tests are comprehensive, covering most critical functionalities in depth.
+- [ ] 9-10 points: Tests are exhaustive, covering all critical functionalities and edge cases in depth.
+
+#### Quality and Reliability of Tests (10 points)
+- [ ] 0-3 points: Tests are unreliable, frequently produce false positives/negatives.
+- [ ] 4-6 points: Tests are mostly reliable with occasional inaccuracies.
+- [ ] 7-8 points: Tests are reliable and thorough with only minor improvements needed.
+- [ ] 9-10 points: Tests are reliable, thorough, and consistently accurate, reflecting best practices in testing.
