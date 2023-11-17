@@ -136,7 +136,7 @@ This project presents an opportunity for teams to creatively explore web service
 - [ ] 0-4 points: Fewer than four classes or missing key relationships (composition, inheritance).
 - [ ] 5-9 points: Meets minimum class count with basic implementation of composition and inheritance.
 - [ ] 10-12 points: Four or more classes with correctly implemented composition, inheritance.
-- [ ] 13-15 points: More than four classes with well-implemented composition, inheritance, and templates.
+- [ ] 13-15 points: Four or more classes with well-implemented composition, inheritance, and templates.
 
 #### Data Persistence (10 points)
 - [ ] 0-3 points: Does not save/read resources to/from a file, or implementation is flawed.
