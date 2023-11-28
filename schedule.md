@@ -24,8 +24,8 @@ title: Schedule
 | 11   | Nov 7: [Lecture 19](lectures/Lecture19.pdf) <br /> [Module 12: C++ Smart Pointers](modules/module12.md) (Due Tue Nov 14)                                    | Nov 9: [Module 13: REST API Part 3](modules/module13.md) (Due Thu Nov 16)                                        | Nov 10: [Lab 10 git & GitHub](https://cmsc240-f23.github.io/lab/10)<br /> (Due Thu Nov 16)                                              |
 | 12   | Nov 14: <br />[Lecture 21: Build Pipeline](lectures/Lecture21.pdf) <br /> [Notes: Unit Testing](notes/UnitTesting.md) <br/> [Module 14: generating docs, static analysis, unit testing](modules/module14.md)(Due Tue Nov 21)                                     | Nov 16: Project Example: [Music Store](https://github.com/cmsc240-f23/MusicStore)<br />[Guide to Markdown](https://www.markdownguide.org/cheat-sheet/)                                      | Nov 17: Work on Project                                               |
 | 13   | Nov 21:   <br />[Lecture 23: C++ Security Risks](lectures/Lecture23.pdf)                                  | Nov 23: Thanksgiving Break<br /> **No Class** | Nov 24: Thanksgiving Break<br /> **No Class**         |
-| 14   | Nov 28:                                    | Nov 30:                                       | Dec 1:  Project Due                                            |
-| 15   | Dec 5:                                     | Dec 7:                                        | Dec 8:                                                |
+| 14   | Nov 28: <br />[Lecture 24: Software Development Life Cycle (SDLC)](lectures/Lecture24.pdf)                                    | Nov 30:                                       | Dec 1:  Project Due                                            |
+| 15   | Dec 5:                                     | Dec 7:                                        | Dec 8:   **No Lab**                                             |
 | 16   | Dec 11 (MONDAY 2:00PM):<br />**Final Exam**<br />Section 2  | Dec 14 (2:00PM):<br />**Final Exam**<br />Section 1    |                             |
 
 
