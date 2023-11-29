@@ -8,4 +8,5 @@ title: Guides
 
 * [VSCode and SSH](/guides/vscode-ssh)
 * [VSCode and Github Assignments](/guides/vscode-git)
+* [Storage Space](/guildes/storage)
 
