@@ -1,15 +1,13 @@
 ---
 layout: default
-permalink: /lecture/12
+permalink: /lecture/27
 ---
 
 # Lecture 27: Final exam review 
 
-
 ### Objective
 
 Review the course topics and content that will be assessed on the final exam.
-
 
 ### Lecture Topics
 
@@ -23,6 +21,21 @@ Review the course topics and content that will be assessed on the final exam.
 * __10  questions__ (10 points each)
 * Total of 100 points
 * 3 hours to complete the exam
+
+```
+if (course_evaluation_response_rate == 100%)
+{
+    students_allowed_one_sheet_of_notes = true
+}
+```
+
+### Links to Student Evaluation Form
+
+__Section 2 10:30 - 11:45am__
+[https://p3.courseval.net/etw/ets/et.asp?nxappid=0E2&nxmid=GetSurveyForm&wsedrq=W0PMDH7373](https://p3.courseval.net/etw/ets/et.asp?nxappid=0E2&nxmid=GetSurveyForm&wsedrq=W0PMDH7373)
+
+__Section 1 1:30 - 2:45pm__
+[https://p3.courseval.net/etw/ets/et.asp?nxappid=0E2&nxmid=GetSurveyForm&wsedrq=W0PMDH6372](https://p3.courseval.net/etw/ets/et.asp?nxappid=0E2&nxmid=GetSurveyForm&wsedrq=W0PMDH6372)
 
 
 ## What to Study <a class="anchor" id="study"></a>
