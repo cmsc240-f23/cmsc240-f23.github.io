@@ -241,7 +241,7 @@ void process(shared_ptr<Item>& sharedItem)
 
 int main() 
 {
-    shared_ptr<Item> myItem = make_shared<Item>();
+    shared_ptr<Item> myItem{new Item()};
 
     cout << "Reference count in main, before function call = " << myItem.use_count() << endl;
 
@@ -255,8 +255,8 @@ int main()
 
 * Is there any memory leak? Why or why not?
 * What is the output of the program?
-* Why is the `Widget` destructor __not called__ when returning from the `process` function? 
-* Why is the `Widget` destructor __called__ when returning from the `main` function? 
+* Why is the `Item` destructor __not called__ when returning from the `process` function? 
+* Why is the `Item` destructor __called__ when returning from the `main` function? 
 
 
 ### C++ Templates
