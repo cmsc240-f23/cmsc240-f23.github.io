@@ -3,7 +3,7 @@ layout: default
 title: Schedule
 ---
 
-# Course Schedule of Topics and Due Dates
+# Course Schedule of Topics and Due Dates 
 
 * Course schedule is subject to change as the semester progresses. 
 
